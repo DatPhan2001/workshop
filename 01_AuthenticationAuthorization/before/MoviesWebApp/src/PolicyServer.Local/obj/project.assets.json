@@ -1,0 +1,246 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Build.Tasks.Git/1.0.0-beta2-19367-01": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Build.Tasks.Git.props": {},
+          "build/Microsoft.Build.Tasks.Git.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Microsoft.Build.Tasks.Git.props": {},
+          "buildCrossTargeting/Microsoft.Build.Tasks.Git.targets": {}
+        }
+      },
+      "Microsoft.SourceLink.Common/1.0.0-beta2-19367-01": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.SourceLink.Common.props": {},
+          "build/Microsoft.SourceLink.Common.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Microsoft.SourceLink.Common.props": {},
+          "buildCrossTargeting/Microsoft.SourceLink.Common.targets": {}
+        }
+      },
+      "Microsoft.SourceLink.GitHub/1.0.0-beta2-19367-01": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.0.0-beta2-19367-01",
+          "Microsoft.SourceLink.Common": "1.0.0-beta2-19367-01"
+        },
+        "build": {
+          "build/Microsoft.SourceLink.GitHub.props": {},
+          "build/Microsoft.SourceLink.GitHub.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/Microsoft.SourceLink.GitHub.props": {},
+          "buildCrossTargeting/Microsoft.SourceLink.GitHub.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Build.Tasks.Git/1.0.0-beta2-19367-01": {
+      "sha512": "3kbkb7aUF41YuJnQzoCJRbjb6bgYY3KHlJ9GGJZ30Y5ytdFusLAC5o3/kfE+Vm6slvu4EBgIwMUknL6U+Pu9uA==",
+      "type": "package",
+      "path": "microsoft.build.tasks.git/1.0.0-beta2-19367-01",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.Build.Tasks.Git.props",
+        "build/Microsoft.Build.Tasks.Git.targets",
+        "buildCrossTargeting/Microsoft.Build.Tasks.Git.props",
+        "buildCrossTargeting/Microsoft.Build.Tasks.Git.targets",
+        "microsoft.build.tasks.git.1.0.0-beta2-19367-01.nupkg.sha512",
+        "microsoft.build.tasks.git.nuspec",
+        "tools/net461/Microsoft.Build.Tasks.Git.dll",
+        "tools/net461/Microsoft.Build.Tasks.Git.pdb",
+        "tools/net461/System.Collections.Immutable.dll",
+        "tools/net461/cs/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/de/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/es/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/fr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/it/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/ja/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/ko/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/pl/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/pt-BR/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/ru/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/tr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/zh-Hans/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/zh-Hant/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/Microsoft.Build.Tasks.Git.dll",
+        "tools/netcoreapp2.0/Microsoft.Build.Tasks.Git.pdb",
+        "tools/netcoreapp2.0/cs/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/de/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/es/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/fr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/it/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/ja/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/ko/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/pl/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/pt-BR/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/ru/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/tr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/zh-Hans/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/zh-Hant/Microsoft.Build.Tasks.Git.resources.dll"
+      ]
+    },
+    "Microsoft.SourceLink.Common/1.0.0-beta2-19367-01": {
+      "sha512": "T6ZEkbRgqcmDoTQDn0ES4FcXiq6uOiqPmbb+hCnKQ/i45W3WjM1+hfNGmsXvTK/e/AqEGiqtXJIi9ZtmbHnzHQ==",
+      "type": "package",
+      "path": "microsoft.sourcelink.common/1.0.0-beta2-19367-01",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/InitializeSourceControlInformation.targets",
+        "build/Microsoft.SourceLink.Common.props",
+        "build/Microsoft.SourceLink.Common.targets",
+        "buildCrossTargeting/Microsoft.SourceLink.Common.props",
+        "buildCrossTargeting/Microsoft.SourceLink.Common.targets",
+        "microsoft.sourcelink.common.1.0.0-beta2-19367-01.nupkg.sha512",
+        "microsoft.sourcelink.common.nuspec",
+        "tools/net461/Microsoft.SourceLink.Common.dll",
+        "tools/net461/Microsoft.SourceLink.Common.pdb",
+        "tools/netcoreapp2.0/Microsoft.SourceLink.Common.dll",
+        "tools/netcoreapp2.0/Microsoft.SourceLink.Common.pdb",
+        "tools/netcoreapp2.0/cs/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/de/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/es/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/fr/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/it/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/ja/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/ko/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/pl/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/pt-BR/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/ru/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/tr/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/zh-Hans/Microsoft.SourceLink.Common.resources.dll",
+        "tools/netcoreapp2.0/zh-Hant/Microsoft.SourceLink.Common.resources.dll"
+      ]
+    },
+    "Microsoft.SourceLink.GitHub/1.0.0-beta2-19367-01": {
+      "sha512": "+Zfc8EddeIPTy9w26xrMOqIL5k5fPICfoYGPMhvlCcmENVT0pslIvrOzRaEvv1UgUL1cjbGRO8SXa1HtoVEhPA==",
+      "type": "package",
+      "path": "microsoft.sourcelink.github/1.0.0-beta2-19367-01",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.SourceLink.GitHub.props",
+        "build/Microsoft.SourceLink.GitHub.targets",
+        "buildCrossTargeting/Microsoft.SourceLink.GitHub.props",
+        "buildCrossTargeting/Microsoft.SourceLink.GitHub.targets",
+        "microsoft.sourcelink.github.1.0.0-beta2-19367-01.nupkg.sha512",
+        "microsoft.sourcelink.github.nuspec",
+        "tools/net461/Microsoft.SourceLink.GitHub.dll",
+        "tools/net461/Microsoft.SourceLink.GitHub.pdb",
+        "tools/net461/cs/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/de/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/es/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/fr/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/it/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/ja/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/ko/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/pl/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/pt-BR/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/ru/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/tr/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/zh-Hans/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/net461/zh-Hant/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/Microsoft.SourceLink.GitHub.dll",
+        "tools/netcoreapp2.0/Microsoft.SourceLink.GitHub.pdb",
+        "tools/netcoreapp2.0/cs/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/de/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/es/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/fr/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/it/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/ja/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/ko/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/pl/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/pt-BR/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/ru/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/tr/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/zh-Hans/Microsoft.SourceLink.GitHub.resources.dll",
+        "tools/netcoreapp2.0/zh-Hant/Microsoft.SourceLink.GitHub.resources.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.SourceLink.GitHub >= 1.0.0-beta2-19367-01"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\thanh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "2.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\thanh\\Downloads\\labs\\labs\\01_AuthenticationAuthorization\\before\\MoviesWebApp\\src\\PolicyServer.Local\\PolicyServer.Local.csproj",
+      "projectName": "PolicyServer.Local",
+      "projectPath": "C:\\Users\\thanh\\Downloads\\labs\\labs\\01_AuthenticationAuthorization\\before\\MoviesWebApp\\src\\PolicyServer.Local\\PolicyServer.Local.csproj",
+      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thanh\\Downloads\\labs\\labs\\01_AuthenticationAuthorization\\before\\MoviesWebApp\\src\\PolicyServer.Local\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.SourceLink.GitHub": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.0-beta2-19367-01, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\bin\Debug\net6.0\PolicyServer.Local.deps.json
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\bin\Debug\net6.0\PolicyServer.Local.dll
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\bin\Debug\net6.0\PolicyServer.Local.pdb
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\bin\Debug\net6.0\PolicyServer.Local.xml
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.csproj.AssemblyReference.cache
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.AssemblyInfoInputs.cache
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.AssemblyInfo.cs
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.sourcelink.json
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.dll
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\refint\PolicyServer.Local.dll
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.xml
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\PolicyServer.Local.pdb
+C:\Users\thanh\Downloads\labs\labs\01_AuthenticationAuthorization\before\MoviesWebApp\src\PolicyServer.Local\obj\Debug\net6.0\ref\PolicyServer.Local.dll

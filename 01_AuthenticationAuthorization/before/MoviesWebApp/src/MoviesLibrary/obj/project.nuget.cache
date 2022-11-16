@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AUt70JI27JbaqFa4okyQ+VcIEAvSQx7T0vbN9U7ktdFDZnJth4GImIQgReXLancvU10WS0cct6tIZhzVqfBEYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thanh\\Downloads\\labs\\labs\\01_AuthenticationAuthorization\\before\\MoviesWebApp\\src\\MoviesLibrary\\MoviesLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thanh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\thanh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

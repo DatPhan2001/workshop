@@ -1,0 +1,276 @@
+﻿
+<!DOCTYPE html>
+<html><head>
+<style>
+body {
+    width:900px;
+    margin:auto;
+    padding:10px;
+    padding-top:30px;
+    font-sie:14pt;  
+    line-height:140%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#444;
+}
+h1 {
+    padding-left:80px;
+    padding-top:30px;
+    min-height:70px;
+    line-height:120%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABUCAYAAAAoEtHdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVGSURBVHhe5ZzPbhNXFMav/yTmj4CqGxYgEVSJbVh3ExZ9AN4AqLoH9lSkah8g3VeQPAGwr0TZVF0mq0qVihpFzaIISAi2Gdsz7vlmzgzX8YztmXtsz73zkyYzd1CQ/eW73z3nxpnacDhUVeS7jadf0OkuH+u4p/GCjue/vLq3HQ0/U0nBSKzbdIIYl8Ib2byi4y4J9080rKBgJBYc9TQazcQxHbdItF0M6vhSFUism3TKIxaAC5OpWSnBiC0+52WdnVkdwfgNb0SjQmziSyUyjMTCiojgnhby07heFYfBHaZigTXnBeOgvx+NzKmCw4oGfSpOCyYQ9KfZdVYwDnpJd72g4vXIZYdJBX1MKL6TZQW56xadXkYjEeAu9J/OZpjkVEQv+SC6dFAwchfe3OntGhO2nN2t4KCXqOhj9kmsNb4Occ1hmIqSQR823DrOOGyeQa/jksPmFvQ6Tgg276DXsX5KziHo90gsNOypuOAw6aBPnYoxVgvGQX8nGomwQ+76ja9Tsd1hCwl6HWsFm0PQb5K7jvg6EytDf9FBr2OrwxYa9DrWCbaMoNex0WELD3odqwRbVtDrWBP6ywx6HZsctrSg10l12E/f/o59IITryObZsuh5/tVeN/hKqaGKXu7oax74fdXrdZTnnaggGPDdiSDox/a6ZmFEMBIK+z/4SV4Lb5SE9rGvAn+26PC8D6rdfUvCBnxnDAT9Wt7sikmmJIkFoZ7RUSqxep+CmcUCrdZFdenCFVWrZaZN7qDXCR3GUzDvB83mThAMVYfcVWRdGvg9dfzhgEcJhYJep05iIackaxsxKLcKiQWajVV17uyXPEooFPQ68C3+E8nVRwS4q+8VVIs50xp5W7kq+iwg2NhGfxnw+2ZiAeTY6sp5XOau6LOAYKUK+ZjA5wtDms0WTkZBr5O5lCwbf2DuMND1um0SSyyjSytYvcEXhvT63uo3N75HWyUCBMP8Lh21eo2vzPjU66zQSSS/AAQzXjnmwcqqjGAn7fc4PSaXibR5EKyUNVi9UVONpplob48OaUp2eRR9zt6U+qMnX8Nh+Out0tE6WzxifWrCD9+85lHIHXIZNhSMiF8RWqO96LI8NFZqqllwav59sKu7K8bYZaFg5DLUKFC/dE5rncvnsv7AU3++/iPOrtNskMuMCvWx/TDqLSEcVhWcS9EyeZ0g3LWYxMD31H/vDsLD9yfuie3/+tePhReAqVvULOBSabc7l/893N+m13qGb4VQjaVOPh6nTb1pPCTRCi12UwUrCzSVkD+Po5Ex4SYiiZa7XSq+DC0eOGI/ujQGUVOomLXGYYBcJr3ReZ1clvrBuSxscpiiN4c/JZYsf3KXGVYJxoj1hQSK2Vxb1tYJRi5DZ4LHI0iRa7W00WGg0O8UM0AxO3PpZKVgHNQ70UiEsSegZGGrwwCyTGov7xqvwFOxVjAuOiW3prZItKk7szY7DCy8mLVaMHaZyMYg84BcNrExt91hcTEr6bKJPwDrBWMky4yJxawTgi2ymHXFYUCyZcosZp0RjFyGB6JJFrOpLnPJYQCBLVXMrqcVs04JRi5DyyRZzG6eLmZdcxiAYGItEx0j2eicYFzMSi4AKGYTl7nosHkUs0mWOSkYI1nMJr/8dVYw4WI2eQaZyw4Dko15iNOCscski1nnHQYkXJZMbecF42L2h2hUGDg1pAoOAybFLL6vWs+i5mK2aJmxyS4NqYrDINpzOv0cjWZmh75vpDetjGCA3jxapnt0TJue+Hd8hmzMlVZ9ekcK7g0hBip4/cG4WA0R8Nv6NPyMUv8Db173no+B3RYAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+}
+pre {
+    padding:12px;
+    background-color:#eee;
+}
+code {
+    font-size:1.3em;
+    color:rgb(200, 0, 0);
+    padding:2px;
+    line-height:normal;
+}
+
+</style>
+</head><body>
+<h1>Native client applications</h1>
+<hr />
+<p>This lab is based on a native console application to search the movie database (via the movie web api).</p>
+<h2>Overview</h2>
+<p>In this lab the client application is a native, cross-platform console application.
+The pertinent steps in this lab will be the same if you're building a Windows or macOS desktop application,
+and are no different than if you were to use a platform-specific UI framework to build your application (WinForms, WPF, MacApp, Cocoa, GTK#, etc).</p>
+<p><strong>Lab Note</strong>: For this lab you will need to keep three solutions open: one for IdentityServer, one for the movie review web API, and another for the movie search console application.</p>
+<h2>Part 1: Obtaining access tokens using resource owner password flow</h2>
+<p>In this part you will configure the console movie client to get tokens via the resource owner password flow.
+This flow is commonly used when migrating legacy applications to OAuth2 for security.
+This flow involves prompting the user for credentials and those credentials are used to get a token from the token endpoint.
+To assist with the protocol details we will be using the <em>IdentityModel</em> NuGet package.</p>
+<p>To get started, let's take a look at the console movie application.</p>
+<ul>
+<li>Open the &quot;MoviesNativeClientApp&quot; solution from <code>~/before</code>.</li>
+<li>Notice the <code>const string authorityUrl</code> variable at the top of the <code>Program</code> class.
+This is the URL for IdentityServer.</li>
+<li>Open <code>~/Program.cs</code> and find <code>MainAsync</code>.
+<ul>
+<li>Notice the <code>PromptForPasswordAsync</code> is the helper to get a token. The token is then used in <code>RunSearchLoopAsync</code>.</li>
+</ul>
+</li>
+<li>Examine <code>RunSearchLoopAsync</code> to get an idea how the token is being used, what web API being invoked, and how the results are being processed.</li>
+<li>Examine <code>PromptForPasswordAsync</code> and notice that there are a few <code>TODO</code>s to fill in.</li>
+</ul>
+<p>You will now fill in those <code>TODO</code>s.</p>
+<ul>
+<li>In the <code>PromptForPasswordAsync</code> method:
+<ul>
+<li>Create an instance of <code>HttpClient</code> to make calls to IdentityServer.</li>
+<li>Use the <code>GetDiscoveryDocumentAsync</code> extension method passing the <code>authorityUrl</code> to get the discovery document.
+<ul>
+<li>Store the result in a variable.</li>
+</ul>
+</li>
+<li>Then use the <code>RequestPasswordTokenAsync</code> extension method to obtain an access token.
+<ul>
+<li>You will need to pass an instance of <code>PasswordTokenRequest</code> as the parameter setting:
+<ul>
+<li>The <code>Address</code> to the <code>TokenEndpoint</code> from the discovery document result.</li>
+<li>The <code>ClientId</code> to be <code>&quot;native_client&quot;</code>.</li>
+<li>The <code>Scope</code> is <code>&quot;movie_api&quot;</code>.</li>
+<li>The <code>UserName</code> and <code>Password</code> from the local variables <code>username</code> and <code>password</code>.</li>
+</ul>
+</li>
+<li>If the result's <code>IsError</code> is <code>true</code>, show the error and return from the method.</li>
+<li>Return the result's <code>AccessToken</code> from the method if it's successful.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>private static async Task&lt;string&gt; PromptForPasswordAsync()
+{
+    Console.WriteLine(&quot;Enter your credentials.&quot;);
+    Console.Write(&quot;Username: &quot;);
+    var username = Console.ReadLine();
+    Console.Write(&quot;Password: &quot;);
+    var password = Console.ReadLine();
+
+    var client = new HttpClient();
+
+    var discoveryResult = await client.GetDiscoveryDocumentAsync(authorityUrl);
+
+    var tokenResult = await client.RequestPasswordTokenAsync(new PasswordTokenRequest {
+        Address = discoveryResult.TokenEndpoint,
+        ClientId = &quot;native_client&quot;,
+        UserName = username,
+        Password = password,
+        Scope = &quot;movie_api&quot;
+    });
+
+    if (tokenResult.IsError)
+    {
+        Console.WriteLine($&quot;Error: {tokenResult.Error}&quot;);
+        if (tokenResult.ErrorDescription != null)
+        {
+            Console.WriteLine($&quot;Description: {tokenResult.ErrorDescription}&quot;);
+        }
+    }
+
+    Console.WriteLine();
+
+    return tokenResult.AccessToken;
+}
+</code></pre>
+<p>Next, we need to configure this client in IdentityServer.</p>
+<ul>
+<li>Open the &quot;IdentityServerHost&quot; solution from <code>~/before</code>.</li>
+<li>Open <code>~/Config.cs</code> and find the <code>Clients</code> configuration.</li>
+<li>Add a new <code>Client</code> to the list and set:
+<ul>
+<li><code>ClientId</code> to <code>&quot;native_client&quot;</code>.</li>
+<li><code>ClientName</code> to <code>&quot;Console Movie Search&quot;</code>.</li>
+<li><code>AllowedGrantTypes</code> to <code>GrantTypes.ResourceOwnerPassword</code>.</li>
+<li><code>RequireClientSecret</code> to <code>false</code>.</li>
+<li>Set the <code>AllowedScopes</code> collection, and add <code>&quot;movie_api&quot;</code> to the list.</li>
+</ul>
+</li>
+</ul>
+<pre><code>new Client
+{
+    ClientId = &quot;native_client&quot;,
+    ClientName = &quot;Console Movie Search&quot;,
+    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+    AllowedScopes = { &quot;movie_api&quot; },
+    RequireClientSecret = false,
+},
+</code></pre>
+<ul>
+<li>Run the IdentityServer project to ensure it's working.</li>
+</ul>
+<p>Next, we need to make sure the web API is running.</p>
+<ul>
+<li>Open the &quot;MoviesWebApi&quot; solution from <code>~/before</code>.</li>
+<li>Run the project so it's available for the console client.</li>
+</ul>
+<p>Finally, we can run the client.</p>
+<ul>
+<li>Back in the console movie client, run the application, and login.
+One thing you might notice is that if you use <em>user1</em>, <em>user2</em>, or <em>user3</em> they will be denied access due to the &quot;SearchPolicy&quot; in the web api authorization.
+You will need to login as <em>user4</em> or <em>user5</em> to use the search function.</li>
+</ul>
+<p>You now have a native application that can get an access token for an API.
+The only problem is that any users that require federated authentication (social media logins or other external logins like AAD, ADFS, Windows, Auth0, Ping Federate, etc) will not work.
+Federated logins require a browser, and you will solve that in the next part.</p>
+<h2>Part 2: Obtaining access tokens using code flow with the system browser</h2>
+<p>In this part you will use the system browser to get access tokens.
+This involves using the code flow, which means some activity will happen in the browser and some activity will be done via the token endpoint.
+Also, since we're using the system browser the user will benefit from SSO, as well as any password managers they have installed in the system browser.
+But, given that the system browser is a shared execution environment, we should (and will) use PKCE to protect the application and user from any malicious agents that might intercept the browser traffic.</p>
+<p>To get started, we need to change the console movie client's configuration in IdentityServer.</p>
+<ul>
+<li>Back in the &quot;IdentityServerHost&quot; project open <code>~/Config.cs</code> and find the <code>Clients</code> configuration.</li>
+<li>Change the <code>Client</code> configuration for <code>&quot;native_client&quot;</code>:
+<ul>
+<li><code>AllowedGrantTypes</code> to <code>GrantTypes.Code</code>.</li>
+<li>Add <code>&quot;openid&quot;</code> to the <code>AllowedScopes</code> collection.</li>
+<li>Set the <code>RedirectUris</code> collection, and add <code>&quot;http://127.0.0.1&quot;</code> to the list.</li>
+</ul>
+</li>
+</ul>
+<pre><code>new Client
+{
+    ClientId = &quot;native_client&quot;,
+    ClientName = &quot;Console Movie Search&quot;,
+    AllowedGrantTypes = GrantTypes.Code,
+    RedirectUris = 
+    {
+        &quot;http://127.0.0.1&quot;
+    },
+    AllowedScopes = { &quot;openid&quot;, &quot;movie_api&quot; },
+    RequireClientSecret = false,
+}
+</code></pre>
+<p>Note that the port number is unspecified in the redirect URI above.
+In <code>Startup.cs</code> an extra call to <code>AddAppAuthRedirectUriValidator</code> (after the call to <code>AddIdentityServer</code>) was used to enable dynamic port number matching for local redirects.</p>
+<p>Next, change the console movie client to use the browser.</p>
+<ul>
+<li>Back in the &quot;MoviesNativeClientApp&quot; project open <code>~/Program.cs</code> and find the <code>MainAsync</code> method.</li>
+<li>Change the code so that the <code>accessToken</code> is now coming from the <code>LaunchBrowserForTokenAsync</code> method.</li>
+</ul>
+<pre><code>//var accessToken = await PromptForPasswordAsync();
+var accessToken = await LaunchBrowserForTokenAsync();
+</code></pre>
+<p>Next, change how we request tokens. We will use the <code>OidcClient</code> class from the <em>IdentityModel.OidcClient</em> NuGet package.</p>
+<ul>
+<li>Find the <code>LaunchBrowserForTokenAsync</code> method.
+<ul>
+<li>Notice the creation of the <code>SystemBrowser</code> class.
+This class will launch the system browser when we need the user to login.
+It also encapsulates a HTTP listener (using ASP.NET Core) on the loopback address <code>&quot;http://127.0.0.1&quot;</code> (with a dynamic port number) to handle the response from IdentityServer.</li>
+</ul>
+</li>
+<li>After the creation of the <code>SystemBrowser</code>, create an instance of <code>OidcClientOptions</code>.
+This is used to model the client OpenID Connect configuration.
+Configure it as such:
+<ul>
+<li><code>authorityUrl</code> as the authority.</li>
+<li><code>&quot;openid movie_api&quot;</code> for the scope.</li>
+<li><code>&quot;http://127.0.0.1:&quot; + browser.Port</code> for the redirect URI and dynamic port number.</li>
+<li><code>&quot;native_client&quot;</code> for the client id.</li>
+<li><code>browser</code> as the browser.</li>
+</ul>
+</li>
+</ul>
+<pre><code>var browser = new SystemBrowser();
+
+var opts = new OidcClientOptions
+{
+    Authority = authorityUrl,
+    Scope = &quot;openid movie_api&quot;,
+    RedirectUri = &quot;http://127.0.0.1:&quot; + browser.Port,
+    ClientId = &quot;native_client&quot;,
+    Browser = browser,
+};
+</code></pre>
+<p>Next we can create the <code>OidcClient</code>.</p>
+<ul>
+<li>Create an instance of <code>OidcClient</code> and pass the <code>OidcClientOptions</code> to the constructor.</li>
+</ul>
+<pre><code>var client = new OidcClient(opts);
+</code></pre>
+<p>Now we should be able to launch the browser.</p>
+<ul>
+<li>Call <code>LoginAsync</code> on the <code>OidcClient</code>.
+<ul>
+<li>If the result is an error, show the error and return <code>null</code> from this method.</li>
+<li>If the result is successful, then return the <code>AccessToken</code> from this method.</li>
+</ul>
+</li>
+</ul>
+<pre><code>var client = new OidcClient(opts);
+var request = new LoginRequest();
+var result = await client.LoginAsync(request);
+if (result.IsError)
+{
+    Console.WriteLine($&quot;Error: {result.Error}.&quot;);
+    return null;
+}
+
+return result.AccessToken;
+</code></pre>
+<p>You should now be able to use the hybrid flow to get an access token.</p>
+<ul>
+<li>Run the console movie client and login to the browser.
+If successful, the browser should inform you that you can return to the application.
+The console app should then be able to search movies.</li>
+</ul>
+<h2>Part 3: [Challenge] Access token expiration</h2>
+<p>As always, you need to think about access token expiration.
+Think about how to get a refresh token and use it to get new access tokens.
+Also, think about where you would store the refresh token.
+Feel free to implement your ideas.</p>
+<hr />
+<p>Copyright © 2020 <a href="https://duendesoftware.com/">Duende Software</a>. All rights reserved.</p>
+
+
+</body></html>

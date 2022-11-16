@@ -1,0 +1,1949 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\10.jpg",
+      "PackagePath": "staticwebassets\\Posters\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\1900.jpg",
+      "PackagePath": "staticwebassets\\Posters\\1900.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\A.I..jpg",
+      "PackagePath": "staticwebassets\\Posters\\A.I..jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ABriefHistoryofTime.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ABriefHistoryofTime.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AClockworkOrange.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AClockworkOrange.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AGeisha.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AGeisha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ALeagueofTheirOwn.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ALeagueofTheirOwn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ALoveinGermany.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ALoveinGermany.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ANouslaLiberte.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ANouslaLiberte.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ASlightCaseofMurder.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ASlightCaseofMurder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AStreetcarNamedDesire.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AStreetcarNamedDesire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AWalkintheSun.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AWalkintheSun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AboutSchmidt.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AboutSchmidt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AbsenceofMalice.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AbsenceofMalice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Adam'sRib.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Adam'sRib.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Adaptation.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Adaptation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Affliction.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Affliction.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Aguirre,theWrathofGod.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Aguirre,theWrathofGod.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Airplane!.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Airplane!.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Aladdin.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Aladdin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AlexanderNevsky.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AlexanderNevsky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Alice'sRestaurant.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Alice'sRestaurant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AliceDoesn'tLiveHereAnymore.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AliceDoesn'tLiveHereAnymore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Aliens.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Aliens.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AllAboutEve.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AllAboutEve.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AllAboutMyMother.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AllAboutMyMother.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AllQuietontheWesternFront.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AllQuietontheWesternFront.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AllThatHeavenAllows.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AllThatHeavenAllows.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AlltheKing'sMen.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AlltheKing'sMen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AllthePresident'sMen.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AllthePresident'sMen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Amadeus.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Amadeus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Amarcord.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Amarcord.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AmericanGraffiti.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AmericanGraffiti.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AmericanMovie.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AmericanMovie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AmoresPerros.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AmoresPerros.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Amélie.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Amélie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AnAmericaninParis.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AnAmericaninParis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Anastasia.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Anastasia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AnatomyofaMurder.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AnatomyofaMurder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AnnaandtheKingofSiam.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AnnaandtheKingofSiam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AnnieHall.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AnnieHall.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ApocalypseNow.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ApocalypseNow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Apollo13.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Apollo13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AshesandDiamonds.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AshesandDiamonds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AtlanticCity.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AtlanticCity.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\AuRevoirLesEnfants.jpg",
+      "PackagePath": "staticwebassets\\Posters\\AuRevoirLesEnfants.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Babette'sFeast.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Babette'sFeast.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BabyDoll.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BabyDoll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BacktotheFuture.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BacktotheFuture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BadDayatBlackRock.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BadDayatBlackRock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Badlands.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Badlands.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BallofFire.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BallofFire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Bambi.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Bambi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BangtheDrumSlowly.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BangtheDrumSlowly.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Barfly.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Barfly.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BarryLyndon.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BarryLyndon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BartonFink.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BartonFink.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BeautifulPeople.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BeautifulPeople.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BeautyandtheBeast.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BeautyandtheBeast.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BedandBoard.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BedandBoard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Beetlejuice.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Beetlejuice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BeforeNightFalls.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BeforeNightFalls.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BeingJohnMalkovich.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BeingJohnMalkovich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BeingThere.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BeingThere.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BelledeJour.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BelledeJour.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Ben-Hur.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Ben-Hur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BeverlyHillsCop.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BeverlyHillsCop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BigNight.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BigNight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BillyLiar.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BillyLiar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BiloxiBlues.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BiloxiBlues.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Birdy.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Birdy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BlackNarcissus.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BlackNarcissus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BlackOrpheus.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BlackOrpheus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BlackRobe.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BlackRobe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BlazingSaddles.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BlazingSaddles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BloodySunday.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BloodySunday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Blow-Up.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Blow-Up.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BlueCollar.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BlueCollar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BlueVelvet.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BlueVelvet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Bob&Carol&Ted&Alice.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Bob&Carol&Ted&Alice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BobleFlambeur.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BobleFlambeur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BodyHeat.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BodyHeat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BonnieandClyde.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BonnieandClyde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BoogieNights.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BoogieNights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BornYesterday.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BornYesterday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BornontheFourthofJuly.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BornontheFourthofJuly.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BoundforGlory.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BoundforGlory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BoysDon'tCry.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BoysDon'tCry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BoyzNtheHood.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BoyzNtheHood.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Brazil.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Brazil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BreakerMorant.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BreakerMorant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BreakingAway.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BreakingAway.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BreakingtheWaves.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BreakingtheWaves.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Breathless.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Breathless.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BriefEncounter.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BriefEncounter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BringingUpBaby.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BringingUpBaby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BroadcastNews.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BroadcastNews.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Brother'sKeeper.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Brother'sKeeper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BullDurham.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BullDurham.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Bullitt.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Bullitt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\BusStop.jpg",
+      "PackagePath": "staticwebassets\\Posters\\BusStop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ButchCassidyandtheSundanceKid.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ButchCassidyandtheSundanceKid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ByeByeBrasil.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ByeByeBrasil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Cabaret.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Cabaret.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CaliforniaSuite.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CaliforniaSuite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Calle54.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Calle54.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Camelot.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Camelot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Camille.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Camille.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CaptainsCourageous.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CaptainsCourageous.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CarmenJones.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CarmenJones.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CarnalKnowledge.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CarnalKnowledge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Casablanca.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Casablanca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Catch-22.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Catch-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CatonaHotTinRoof.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CatonaHotTinRoof.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Cavalcade.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Cavalcade.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ChanIsMissing.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ChanIsMissing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ChariotsofFire.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ChariotsofFire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CharleyVarrick.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CharleyVarrick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Chicago.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Chicago.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ChickenRun.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ChickenRun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Chinatown.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Chinatown.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ChloëintheAfternoon.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ChloëintheAfternoon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Chocolat.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Chocolat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CitizenKane.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CitizenKane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Claire'sKnee.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Claire'sKnee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Close-Up.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Close-Up.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CloseEncountersoftheThirdKind.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CloseEncountersoftheThirdKind.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Clueless.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Clueless.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CoalMiner'sDaughter.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CoalMiner'sDaughter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ComeBack,LittleSheba.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ComeBack,LittleSheba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ComingHome.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ComingHome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Contempt.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Contempt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CoolHandLuke.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CoolHandLuke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\CriesandWhispers.jpg",
+      "PackagePath": "staticwebassets\\Posters\\CriesandWhispers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Crossfire.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Crossfire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Crumb.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Crumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Cry,theBelovedCountry.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Cry,theBelovedCountry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DamnYankees.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DamnYankees.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DancewithaStranger.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DancewithaStranger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DangerousLiaisons.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DangerousLiaisons.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DarkEyes.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DarkEyes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DarkVictory.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DarkVictory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Darling.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Darling.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DavidCopperfield.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DavidCopperfield.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DavidHoltzman'sDiary.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DavidHoltzman'sDiary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DawnoftheDead.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DawnoftheDead.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DayforNight.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DayforNight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DaysofHeaven.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DaysofHeaven.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DaysofWineandRoses.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DaysofWineandRoses.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DeadCalm.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DeadCalm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DeadEnd.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DeadEnd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DeadManWalking.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DeadManWalking.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DeadRingers.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DeadRingers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DeadofNight.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DeadofNight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DeathinVenice.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DeathinVenice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Deliverance.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Deliverance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DesperatelySeekingSusan.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DesperatelySeekingSusan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DestryRidesAgain.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DestryRidesAgain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Diabolique.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Diabolique.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DialMforMurder.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DialMforMurder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DiaryofaChambermaid.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DiaryofaChambermaid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DiaryofaCountryPriest.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DiaryofaCountryPriest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DieHard.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DieHard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Diner.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Diner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DinneratEight.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DinneratEight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DirtyHarry.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DirtyHarry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DirtyRottenScoundrels.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DirtyRottenScoundrels.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Disraeli.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Disraeli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Diva.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Diva.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DoctorZhivago.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DoctorZhivago.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DonnieBrasco.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DonnieBrasco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DotheRightThing.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DotheRightThing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Dr.JekyllandMr.Hyde.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Dr.JekyllandMr.Hyde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\DrowningbyNumbers.jpg",
+      "PackagePath": "staticwebassets\\Posters\\DrowningbyNumbers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\EastofEden.jpg",
+      "PackagePath": "staticwebassets\\Posters\\EastofEden.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\EatDrinkManWoman.jpg",
+      "PackagePath": "staticwebassets\\Posters\\EatDrinkManWoman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\EightMenOut.jpg",
+      "PackagePath": "staticwebassets\\Posters\\EightMenOut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Fanny&Alexander.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Fanny&Alexander.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Farewell,MyConcubine.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Farewell,MyConcubine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\FarfromHeaven.jpg",
+      "PackagePath": "staticwebassets\\Posters\\FarfromHeaven.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Fargo.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Fargo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Fast,Cheap&OutofControl.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Fast,Cheap&OutofControl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\FastRunner(Atanarjuat).jpg",
+      "PackagePath": "staticwebassets\\Posters\\FastRunner(Atanarjuat).jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\FatheroftheBride.jpg",
+      "PackagePath": "staticwebassets\\Posters\\FatheroftheBride.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\FistinHisPocket.jpg",
+      "PackagePath": "staticwebassets\\Posters\\FistinHisPocket.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ForWhomtheBellTolls.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ForWhomtheBellTolls.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\FriendlyPersuasion.jpg",
+      "PackagePath": "staticwebassets\\Posters\\FriendlyPersuasion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\GangsofNewYork.jpg",
+      "PackagePath": "staticwebassets\\Posters\\GangsofNewYork.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\GhostWorld.jpg",
+      "PackagePath": "staticwebassets\\Posters\\GhostWorld.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\GosfordPark.jpg",
+      "PackagePath": "staticwebassets\\Posters\\GosfordPark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\GreatExpectations.jpg",
+      "PackagePath": "staticwebassets\\Posters\\GreatExpectations.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\GreenforDanger.jpg",
+      "PackagePath": "staticwebassets\\Posters\\GreenforDanger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Hamlet.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Hamlet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Happiness.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Happiness.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HarlanCounty,USA.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HarlanCounty,USA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HeavyTraffic.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HeavyTraffic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HenryFool.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HenryFool.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HereComesMr.Jordan.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HereComesMr.Jordan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HighArt.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HighArt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HighandLow(Japan).jpg",
+      "PackagePath": "staticwebassets\\Posters\\HighandLow(Japan).jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HoopDreams.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HoopDreams.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HopeandGlory.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HopeandGlory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HouseholdSaints.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HouseholdSaints.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\HusbandsandWives.jpg",
+      "PackagePath": "staticwebassets\\Posters\\HusbandsandWives.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\IKnowWhereI'mGoing!.jpg",
+      "PackagePath": "staticwebassets\\Posters\\IKnowWhereI'mGoing!.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\IRememberMama.jpg",
+      "PackagePath": "staticwebassets\\Posters\\IRememberMama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\IlPostino(ThePostman).jpg",
+      "PackagePath": "staticwebassets\\Posters\\IlPostino(ThePostman).jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\InherittheWind.jpg",
+      "PackagePath": "staticwebassets\\Posters\\InherittheWind.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\InternalAffairs.jpg",
+      "PackagePath": "staticwebassets\\Posters\\InternalAffairs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\IntheBedroom.jpg",
+      "PackagePath": "staticwebassets\\Posters\\IntheBedroom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\It'saGift.jpg",
+      "PackagePath": "staticwebassets\\Posters\\It'saGift.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\JailhouseRock.jpg",
+      "PackagePath": "staticwebassets\\Posters\\JailhouseRock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\JeandeFlorette.jpg",
+      "PackagePath": "staticwebassets\\Posters\\JeandeFlorette.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\JerryMaguire.jpg",
+      "PackagePath": "staticwebassets\\Posters\\JerryMaguire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\JudgmentatNuremberg.jpg",
+      "PackagePath": "staticwebassets\\Posters\\JudgmentatNuremberg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\KnifeintheWater.jpg",
+      "PackagePath": "staticwebassets\\Posters\\KnifeintheWater.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\L'Aged'Or.jpg",
+      "PackagePath": "staticwebassets\\Posters\\L'Aged'Or.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\L'Argent.jpg",
+      "PackagePath": "staticwebassets\\Posters\\L'Argent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\L'Atalante.jpg",
+      "PackagePath": "staticwebassets\\Posters\\L'Atalante.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\L'Avventura.jpg",
+      "PackagePath": "staticwebassets\\Posters\\L'Avventura.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\L.A.Confidential.jpg",
+      "PackagePath": "staticwebassets\\Posters\\L.A.Confidential.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LaCérémonie.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LaCérémonie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LaDolceVita.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LaDolceVita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LaFemmeInfidèle.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LaFemmeInfidèle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LaFemmeNikita.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LaFemmeNikita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Ladybird,Ladybird.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Ladybird,Ladybird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Lamerica.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Lamerica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LeBeauMariage.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LeBeauMariage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LeBoucher.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LeBoucher.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LeavingLasVegas.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LeavingLasVegas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LesMiserables.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LesMiserables.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LifeWithFather.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LifeWithFather.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LikeWaterforChocolate.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LikeWaterforChocolate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Lili.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Lili.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LittleWomen.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LittleWomen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LivinginOblivion.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LivinginOblivion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LoneStar.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LoneStar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LoveAffair.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LoveAffair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\LovelyandAmazing.jpg",
+      "PackagePath": "staticwebassets\\Posters\\LovelyandAmazing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MajorBarbara.jpg",
+      "PackagePath": "staticwebassets\\Posters\\MajorBarbara.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MalcolmX.jpg",
+      "PackagePath": "staticwebassets\\Posters\\MalcolmX.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MeanStreets.jpg",
+      "PackagePath": "staticwebassets\\Posters\\MeanStreets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MisterRoberts.jpg",
+      "PackagePath": "staticwebassets\\Posters\\MisterRoberts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MonOncle.jpg",
+      "PackagePath": "staticwebassets\\Posters\\MonOncle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Monsters,Inc..jpg",
+      "PackagePath": "staticwebassets\\Posters\\Monsters,Inc..jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Moonstruck.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Moonstruck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Mother.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Mother.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Mrs.Miniver.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Mrs.Miniver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MulhollandDr..jpg",
+      "PackagePath": "staticwebassets\\Posters\\MulhollandDr..jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\My20thCentury.jpg",
+      "PackagePath": "staticwebassets\\Posters\\My20thCentury.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MyDarlingClementine.jpg",
+      "PackagePath": "staticwebassets\\Posters\\MyDarlingClementine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\MyNightatMaud's.jpg",
+      "PackagePath": "staticwebassets\\Posters\\MyNightatMaud's.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Nashville.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Nashville.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\NationalLampoon'sAnimalHouse.jpg",
+      "PackagePath": "staticwebassets\\Posters\\NationalLampoon'sAnimalHouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\NightoftheLivingDead.jpg",
+      "PackagePath": "staticwebassets\\Posters\\NightoftheLivingDead.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Nobody'sFool.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Nobody'sFool.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Notorious.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Notorious.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Now,Voyager.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Now,Voyager.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Oklahoma!.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Oklahoma!.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\One,Two,Three.jpg",
+      "PackagePath": "staticwebassets\\Posters\\One,Two,Three.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\OneFlewOvertheCuckoo'sNest.jpg",
+      "PackagePath": "staticwebassets\\Posters\\OneFlewOvertheCuckoo'sNest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\OneNightofLove.jpg",
+      "PackagePath": "staticwebassets\\Posters\\OneNightofLove.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\OnlyAngelsHaveWings.jpg",
+      "PackagePath": "staticwebassets\\Posters\\OnlyAngelsHaveWings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\OntheBeach.jpg",
+      "PackagePath": "staticwebassets\\Posters\\OntheBeach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\OrdinaryPeople.jpg",
+      "PackagePath": "staticwebassets\\Posters\\OrdinaryPeople.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Othello.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Othello.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\OurTown.jpg",
+      "PackagePath": "staticwebassets\\Posters\\OurTown.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Paisan.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Paisan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Persona.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Persona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Persuasion.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Persuasion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Ponette.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Ponette.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\PrideandPrejudice.jpg",
+      "PackagePath": "staticwebassets\\Posters\\PrideandPrejudice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\PulpFiction.jpg",
+      "PackagePath": "staticwebassets\\Posters\\PulpFiction.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Red.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Red.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\RichardIII.jpg",
+      "PackagePath": "staticwebassets\\Posters\\RichardIII.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Roger&Me.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Roger&Me.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\RomeoandJuliet.jpg",
+      "PackagePath": "staticwebassets\\Posters\\RomeoandJuliet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\RugglesofRedGap.jpg",
+      "PackagePath": "staticwebassets\\Posters\\RugglesofRedGap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Rushmore.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Rushmore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\RuthlessPeople.jpg",
+      "PackagePath": "staticwebassets\\Posters\\RuthlessPeople.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Salesman.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Salesman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SaturdayNightandSundayMorning.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SaturdayNightandSundayMorning.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SavingPrivateRyan.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SavingPrivateRyan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SecretHonor.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SecretHonor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SecretsandLies.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SecretsandLies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SexyBeast.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SexyBeast.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ShakespeareinLove.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ShakespeareinLove.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Sherman'sMarch.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Sherman'sMarch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ShipofFools.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ShipofFools.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Shrek.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Shrek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Spartacus.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Spartacus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SpiritedAway.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SpiritedAway.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Stalag17.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Stalag17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\StopMakingSense.jpg",
+      "PackagePath": "staticwebassets\\Posters\\StopMakingSense.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Storytelling.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Storytelling.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SunsetBoulevard.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SunsetBoulevard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SweptAway.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SweptAway.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\SwingTime.jpg",
+      "PackagePath": "staticwebassets\\Posters\\SwingTime.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TalktoHer.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TalktoHer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TasteofCherry.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TasteofCherry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TenderMercies.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TenderMercies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThatObscureObjectofDesire.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThatObscureObjectofDesire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\The400Blows.jpg",
+      "PackagePath": "staticwebassets\\Posters\\The400Blows.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheAdjuster.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheAdjuster.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheAdventuresofRobinHood.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheAdventuresofRobinHood.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheAfricanQueen.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheAfricanQueen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheAmericanFriend.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheAmericanFriend.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheAmericanizationofEmily.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheAmericanizationofEmily.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheApartment.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheApartment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheApostle.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheApostle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheAsphaltJungle.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheAsphaltJungle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheAwfulTruth.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheAwfulTruth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBadandtheBeautiful.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBadandtheBeautiful.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBaker'sWife.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBaker'sWife.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBalladofCableHogue.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBalladofCableHogue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBandWagon.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBandWagon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBankDick.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBankDick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBattleofAlgiers.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBattleofAlgiers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBestYearsofOurLives.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBestYearsofOurLives.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBicycleThief.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBicycleThief.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBigChill.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBigChill.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBigClock.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBigClock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBigDealonMadonnaStreet.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBigDealonMadonnaStreet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBigHeat.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBigHeat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBigRedOne.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBigRedOne.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBigSky.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBigSky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBigSleep.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBigSleep.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBirds.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBirds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBreakfastClub.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBreakfastClub.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBrideWoreBlack.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBrideWoreBlack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBridgeontheRiverKwai.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBridgeontheRiverKwai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheBuddyHollyStory.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheBuddyHollyStory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheButcherBoy.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheButcherBoy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCaineMutiny.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCaineMutiny.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCelebration.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCelebration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCiderHouseRules.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCiderHouseRules.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCitadel.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCitadel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheClockmaker.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheClockmaker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheColorofMoney.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheColorofMoney.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheConformist.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheConformist.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheConversation.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheConversation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCountofMonteCristo.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCountofMonteCristo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCountryGirl.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCountryGirl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCranesAreFlying.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCranesAreFlying.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheCryingGame.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheCryingGame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDamned.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDamned.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDayoftheJackal.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDayoftheJackal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDaytheEarthStoodStill.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDaytheEarthStoodStill.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDeerHunter.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDeerHunter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDefiantOnes.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDefiantOnes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDirtyDozen.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDirtyDozen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDiscreetCharmoftheBourgeoisie.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDiscreetCharmoftheBourgeoisie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDreamlifeofAngels.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDreamlifeofAngels.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheDuellists.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheDuellists.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheEnglishPatient.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheEnglishPatient.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheFamilyGame.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheFamilyGame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheFortuneCookie.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheFortuneCookie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheFugitive.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheFugitive.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheFullMonty.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheFullMonty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheGeneral.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheGeneral.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheGleanersandI.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheGleanersandI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheGodfatherPartII.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheGodfatherPartII.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheGood,theBadandtheUgly.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheGood,theBadandtheUgly.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheGrapesofWrath.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheGrapesofWrath.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheGreatMcGinty.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheGreatMcGinty.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheGunfighter.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheGunfighter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheHeartbreakKid.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheHeartbreakKid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheHeiress.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheHeiress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheHomecoming.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheHomecoming.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheHours.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheHours.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheInsider.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheInsider.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheJazzSinger.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheJazzSinger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheJudgeandtheAssassin.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheJudgeandtheAssassin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheKillers.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheKillers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheKingofMarvinGardens.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheKingofMarvinGardens.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheLadyVanishes.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheLadyVanishes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheLastSeduction.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheLastSeduction.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheLastTemptationofChrist.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheLastTemptationofChrist.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheLavenderHillMob.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheLavenderHillMob.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheLetter.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheLetter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheLongestDay.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheLongestDay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheLostWeekend.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheLostWeekend.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheMadnessofKingGeorge.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheMadnessofKingGeorge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheMalteseFalcon.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheMalteseFalcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheManWhoLovedWomen.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheManWhoLovedWomen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheManWhoWasn'tThere.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheManWhoWasn'tThere.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheMen.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheMen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheMiracleWorker.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheMiracleWorker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheMoretheMerrier.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheMoretheMerrier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheOppositeofSex.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheOppositeofSex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThePeopleVs.LarryFlynt.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThePeopleVs.LarryFlynt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThePhiladelphiaStory.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThePhiladelphiaStory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThePianist.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThePianist.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThePillowBook.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThePillowBook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThePrivateLifeofHenryVIII.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThePrivateLifeofHenryVIII.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThePublicEnemy.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThePublicEnemy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThePurpleRoseofCairo.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThePurpleRoseofCairo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheServant.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheServant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheSnakePit.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheSnakePit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheStoryofG.I.Joe.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheStoryofG.I.Joe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheStraightStory.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheStraightStory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheSweetHereafter.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheSweetHereafter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheTenCommandments.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheTenCommandments.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheThinRedLine.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheThinRedLine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheThirdGeneration.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheThirdGeneration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheThirdMan.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheThirdMan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheTrain.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheTrain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheTreasureoftheSierraMadre.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheTreasureoftheSierraMadre.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheTroublewithHarry.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheTroublewithHarry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheUsualSuspects.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheUsualSuspects.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheWarGame.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheWarGame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheWarriors.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheWarriors.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheWaterdance.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheWaterdance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheWhalesofAugust.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheWhalesofAugust.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheWorldofApu.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheWorldofApu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TheYearling.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TheYearling.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Thelma&Louise.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Thelma&Louise.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThirtyTwoShortFilmsAboutGlennGould.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThirtyTwoShortFilmsAboutGlennGould.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThisSportingLife.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThisSportingLife.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ThreeDaysoftheCondor.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ThreeDaysoftheCondor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TightLittleIsland.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TightLittleIsland.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ToKillaMockingbird.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ToKillaMockingbird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ToLive.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ToLive.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TomJones.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TomJones.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\TouchofEvil.jpg",
+      "PackagePath": "staticwebassets\\Posters\\TouchofEvil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ToyStory.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ToyStory.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Traffic.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Traffic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Trainspotting.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Trainspotting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Tristana.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Tristana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Ugetsu.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Ugetsu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Vanyaon42ndStreet.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Vanyaon42ndStreet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Vertigo.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Vertigo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Viridiana.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Viridiana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\WakingLife.jpg",
+      "PackagePath": "staticwebassets\\Posters\\WakingLife.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\WelcometotheDollhouse.jpg",
+      "PackagePath": "staticwebassets\\Posters\\WelcometotheDollhouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\What'sEatingGilbertGrape.jpg",
+      "PackagePath": "staticwebassets\\Posters\\What'sEatingGilbertGrape.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\WhoFramedRogerRabbit.jpg",
+      "PackagePath": "staticwebassets\\Posters\\WhoFramedRogerRabbit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\WildReeds.jpg",
+      "PackagePath": "staticwebassets\\Posters\\WildReeds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\WildStrawberries.jpg",
+      "PackagePath": "staticwebassets\\Posters\\WildStrawberries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\Wilson.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Wilson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\WingsofDesire.jpg",
+      "PackagePath": "staticwebassets\\Posters\\WingsofDesire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\YTuMamáTambién.jpg",
+      "PackagePath": "staticwebassets\\Posters\\YTuMamáTambién.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\YouCanCountOnMe.jpg",
+      "PackagePath": "staticwebassets\\Posters\\YouCanCountOnMe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\YouOnlyLiveOnce.jpg",
+      "PackagePath": "staticwebassets\\Posters\\YouOnlyLiveOnce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\Posters\\ZeroforConduct.jpg",
+      "PackagePath": "staticwebassets\\Posters\\ZeroforConduct.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.htm",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.htm"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thanh\\Downloads\\labs\\labs\\02_ExternalAuthentication\\after\\MoviesWebApp\\src\\MoviesWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MoviesWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MoviesWebApp.props",
+      "PackagePath": "build\\MoviesWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MoviesWebApp.props",
+      "PackagePath": "buildMultiTargeting\\MoviesWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MoviesWebApp.props",
+      "PackagePath": "buildTransitive\\MoviesWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

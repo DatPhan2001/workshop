@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f33a974b-d737-42a9-b431-f987a39e2bee": {
+      "ProjectGuid": "f33a974b-d737-42a9-b431-f987a39e2bee",
+      "DisplayName": "MoviesLibrary",
+      "ColorIndex": 0
+    },
+    "27950cd7-ace2-48b7-a610-8ca5519f86bb": {
+      "ProjectGuid": "27950cd7-ace2-48b7-a610-8ca5519f86bb",
+      "DisplayName": "MoviesWebApi",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

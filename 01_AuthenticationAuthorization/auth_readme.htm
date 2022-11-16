@@ -1,0 +1,519 @@
+﻿
+<!DOCTYPE html>
+<html><head>
+<style>
+body {
+    width:900px;
+    margin:auto;
+    padding:10px;
+    padding-top:30px;
+    font-sie:14pt;  
+    line-height:140%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#444;
+}
+h1 {
+    padding-left:80px;
+    padding-top:30px;
+    min-height:70px;
+    line-height:120%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABUCAYAAAAoEtHdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVGSURBVHhe5ZzPbhNXFMav/yTmj4CqGxYgEVSJbVh3ExZ9AN4AqLoH9lSkah8g3VeQPAGwr0TZVF0mq0qVihpFzaIISAi2Gdsz7vlmzgzX8YztmXtsz73zkyYzd1CQ/eW73z3nxpnacDhUVeS7jadf0OkuH+u4p/GCjue/vLq3HQ0/U0nBSKzbdIIYl8Ib2byi4y4J9080rKBgJBYc9TQazcQxHbdItF0M6vhSFUism3TKIxaAC5OpWSnBiC0+52WdnVkdwfgNb0SjQmziSyUyjMTCiojgnhby07heFYfBHaZigTXnBeOgvx+NzKmCw4oGfSpOCyYQ9KfZdVYwDnpJd72g4vXIZYdJBX1MKL6TZQW56xadXkYjEeAu9J/OZpjkVEQv+SC6dFAwchfe3OntGhO2nN2t4KCXqOhj9kmsNb4Occ1hmIqSQR823DrOOGyeQa/jksPmFvQ6Tgg276DXsX5KziHo90gsNOypuOAw6aBPnYoxVgvGQX8nGomwQ+76ja9Tsd1hCwl6HWsFm0PQb5K7jvg6EytDf9FBr2OrwxYa9DrWCbaMoNex0WELD3odqwRbVtDrWBP6ywx6HZsctrSg10l12E/f/o59IITryObZsuh5/tVeN/hKqaGKXu7oax74fdXrdZTnnaggGPDdiSDox/a6ZmFEMBIK+z/4SV4Lb5SE9rGvAn+26PC8D6rdfUvCBnxnDAT9Wt7sikmmJIkFoZ7RUSqxep+CmcUCrdZFdenCFVWrZaZN7qDXCR3GUzDvB83mThAMVYfcVWRdGvg9dfzhgEcJhYJep05iIackaxsxKLcKiQWajVV17uyXPEooFPQ68C3+E8nVRwS4q+8VVIs50xp5W7kq+iwg2NhGfxnw+2ZiAeTY6sp5XOau6LOAYKUK+ZjA5wtDms0WTkZBr5O5lCwbf2DuMND1um0SSyyjSytYvcEXhvT63uo3N75HWyUCBMP8Lh21eo2vzPjU66zQSSS/AAQzXjnmwcqqjGAn7fc4PSaXibR5EKyUNVi9UVONpplob48OaUp2eRR9zt6U+qMnX8Nh+Out0tE6WzxifWrCD9+85lHIHXIZNhSMiF8RWqO96LI8NFZqqllwav59sKu7K8bYZaFg5DLUKFC/dE5rncvnsv7AU3++/iPOrtNskMuMCvWx/TDqLSEcVhWcS9EyeZ0g3LWYxMD31H/vDsLD9yfuie3/+tePhReAqVvULOBSabc7l/893N+m13qGb4VQjaVOPh6nTb1pPCTRCi12UwUrCzSVkD+Po5Ex4SYiiZa7XSq+DC0eOGI/ujQGUVOomLXGYYBcJr3ReZ1clvrBuSxscpiiN4c/JZYsf3KXGVYJxoj1hQSK2Vxb1tYJRi5DZ4LHI0iRa7W00WGg0O8UM0AxO3PpZKVgHNQ70UiEsSegZGGrwwCyTGov7xqvwFOxVjAuOiW3prZItKk7szY7DCy8mLVaMHaZyMYg84BcNrExt91hcTEr6bKJPwDrBWMky4yJxawTgi2ymHXFYUCyZcosZp0RjFyGB6JJFrOpLnPJYQCBLVXMrqcVs04JRi5DyyRZzG6eLmZdcxiAYGItEx0j2eicYFzMSi4AKGYTl7nosHkUs0mWOSkYI1nMJr/8dVYw4WI2eQaZyw4Dko15iNOCscski1nnHQYkXJZMbecF42L2h2hUGDg1pAoOAybFLL6vWs+i5mK2aJmxyS4NqYrDINpzOv0cjWZmh75vpDetjGCA3jxapnt0TJue+Hd8hmzMlVZ9ekcK7g0hBip4/cG4WA0R8Nv6NPyMUv8Db173no+B3RYAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+}
+pre {
+    padding:12px;
+    background-color:#eee;
+}
+code {
+    font-size:1.3em;
+    color:rgb(200, 0, 0);
+    padding:2px;
+    line-height:normal;
+}
+
+</style>
+</head><body>
+<h1>ASP.NET Core Authentication and Authorization</h1>
+<hr />
+<p>This lab is based on a simple movie review website.
+It allows customers to browse and search movies and view movie reviews.
+It also allows reviewers to create and edit movie reviews.</p>
+<h2>Overview</h2>
+<p>In this lab you will add cookie-based authentication to the movie review website using the cookie authentication handler and claims-based identity.
+Once users are authenticated, you will then also implement policy-based and resource-based authorization using the ASP.NET Core authorization framework.</p>
+<h3>Application notes</h3>
+<p><em>Data</em>: All the data for the movie review website it kept in-memory, so any changes to data will be lost when the application restarts.</p>
+<p><em>Users</em>: The lab predefines five users whose usernames are <strong>user1</strong> through <strong>user5</strong>.
+These users' passwords will be the same as their username.
+Once these users login to the applicaiton they will have different roles within the application:
+<em>user1</em>, <em>user2</em> and <em>user3</em> are reviewers,
+<em>user4</em> is a customer,
+and <em>user5</em> is an administrator.
+When you login you can choose one of those usernames in order to trigger different behavior in the application.</p>
+<h2>Part 1: Cookie-based authentication</h2>
+<p>In this part you will add the cookie authentication handler, add the authentication middleware, allow the user to login and logout, and use claims to model the identity of the authenticated user.</p>
+<ul>
+<li>Open the application from the <code>~/before</code> folder.
+<ul>
+<li>Inspect the code to become familiar with the structure.</li>
+<li>Run the application to see what it currently does.</li>
+</ul>
+</li>
+</ul>
+<p>To authenticate users, we need to add the authentication services and middleware to the application. We will do this work in the <code>MoviesWebApp</code> project.</p>
+<ul>
+<li>Open <code>~/Startup.cs</code>.</li>
+<li>In the <code>ConfigureServices</code> method add the authentication services to DI.
+<ul>
+<li>Set <code>&quot;Cookies&quot;</code> as the default scheme.</li>
+</ul>
+</li>
+<li>Also add the cookie handler with <code>AddCookies</code>.
+<ul>
+<li>Set the <code>LoginPath</code> to <code>&quot;/Account/Login&quot;</code>.</li>
+<li>Set the <code>AccessDeniedPath</code> to <code>&quot;/Account/AccessDenied&quot;</code>.</li>
+</ul>
+</li>
+</ul>
+<pre><code>services.AddAuthentication(&quot;Cookies&quot;)
+    .AddCookie(&quot;Cookies&quot;, options =&gt;
+    {
+        options.LoginPath = &quot;/Account/Login&quot;;
+        options.AccessDeniedPath = &quot;/Account/AccessDenied&quot;;
+    });
+</code></pre>
+<ul>
+<li>In the <code>Configure</code> method register the  authentication middleware after the routing middleware, but before the endpoints middleware.</li>
+</ul>
+<pre><code>app.UseRouting();
+
+app.UseAuthentication();
+
+app.UseEndpoints(endpoints =&gt;
+{
+    endpoints.MapDefaultControllerRoute();
+});
+</code></pre>
+<p>Next we will use the authentication services to issue the login cookie.</p>
+<ul>
+<li>Open <code>~/Controllers/AccountController.cs</code> and find the <code>Login</code> action methods.</li>
+<li>Implement the logic to allow users to signin.
+<ul>
+<li>We don't have a real database of username/passwords, so just check that they are the same.</li>
+<li>If successful, create a list of <code>Claim</code>s and populate it with the <code>sub</code> claim with the value of the <code>username</code>.</li>
+<li>Notice there is a <code>MovieIdentityService</code> in the <code>AccountController</code> -- this allows application specific claims to be loaded based upon the <code>sub</code> claim.
+Feel free to look in the implementation to understand the additional claims being loaded for the users.
+Invoke it and merge the claims returned into the claims collection you created.</li>
+<li>Create <code>ClaimsIdentity</code> and <code>ClaimsPrincipal</code> from the claims.</li>
+<li>Use the <code>SignInAsync</code> method on the <code>HttpContext</code> and issue the cookie from the <code>ClaimsPrincipal</code>.</li>
+<li>Rediriect the user to the <code>ReturnUrl</code> (if present), or to the home page.</li>
+</ul>
+</li>
+</ul>
+<pre><code>[HttpPost]
+public async Task&lt;IActionResult&gt; Login(LoginViewModel model)
+{
+    if (model.Username == model.Password)
+    {
+        var claims = new List&lt;Claim&gt;
+        {
+            new Claim(&quot;sub&quot;, model.Username)
+        };
+        claims.AddRange(_identityService.GetClaimsForUser(model.Username));
+
+        var ci = new ClaimsIdentity(claims, &quot;password&quot;, &quot;name&quot;, &quot;role&quot;);
+        var cp = new ClaimsPrincipal(ci);
+
+        await HttpContext.SignInAsync(&quot;Cookies&quot;, cp);
+
+        if (model.ReturnUrl != null)
+        {
+            return LocalRedirect(model.ReturnUrl);
+        }
+
+        return RedirectToAction(&quot;Index&quot;, &quot;Home&quot;);
+    }
+
+    ModelState.AddModelError(&quot;&quot;, &quot;Invalid username or password&quot;);
+    return View();
+}
+</code></pre>
+<ul>
+<li>Find the <code>Logout</code> method.</li>
+<li>Implement the logic to allow a user to signout.</li>
+</ul>
+<pre><code>public async Task&lt;IActionResult&gt; Logout()
+{
+    await HttpContext.SignOutAsync(&quot;Cookies&quot;);
+    return RedirectToAction(&quot;Index&quot;, &quot;Home&quot;);
+}
+</code></pre>
+<ul>
+<li>Run the application and test signing in and signing out.</li>
+</ul>
+<h2>Part 2: Requiring authenticated users</h2>
+<p>In this part you will start to implement authorization, and the first step will be to prevent anonymous access to much of the application.
+This will require adding a route requirement and adding the authorization middleware.</p>
+<ul>
+<li>Back in <code>~/Startup.cs</code>, add the authorization middleware to the pipeline in <code>Configure</code>. It should be placed after the authentication middleware and before the endpoint middleware.</li>
+</ul>
+<pre><code>app.UseAuthentication();
+
+app.UseAuthorization();
+
+app.UseEndpoints(endpoints =&gt;
+{
+    endpoints.MapDefaultControllerRoute();
+});
+</code></pre>
+<p>Next we want a global authorization requirement to the endpoint that handles MVC controllers.
+This will also be done in the in <code>Configure</code> method.</p>
+<ul>
+<li>Use the <code>RequireAuthorization</code> fluent API on the result of <code>MapDefaultControllerRoute</code> where the controller endpoint is registered.</li>
+</ul>
+<pre><code>app.UseEndpoints(endpoints =&gt;
+{
+    endpoints.MapDefaultControllerRoute().RequireAuthorization();
+});
+</code></pre>
+<p>If you were to run the application now, an anonymous user would not be able to access any page including the login page.
+We now need to relax the requirement except for the few places where we want to allow anoymous access.</p>
+<ul>
+<li>Add the <code>[AllowAnonymous]</code> attribute to both the <code>HomeController</code> and the <code>AccountController</code>.</li>
+</ul>
+<pre><code>[AllowAnonymous]
+public class AccountController : Controller
+{
+    ...
+}
+</code></pre>
+<ul>
+<li>Run the application to test that an anonymous user cannot access the movies, but can login.</li>
+</ul>
+<h2>Part 3: Claims transformation to add roles for user</h2>
+<p>The next authorization we want to enforce is only customers (and admins) may use the search feature.
+The logic for allowing a user to use search will be based on roles.
+This means we need to have a strategy to map users into roles, and this could be done in several ways.</p>
+<p>One approach would be to load the roles at login time and store them in the cookie.
+This could be done in the <code>MovieIdentityService</code> that is being invoked from the <code>AccountController</code>'s <code>Login</code> action method.
+In fact, if you look into the implementation you can see how this might be done.
+This approach has the side effect of possibly bloating the cookie (as more and more claims/roles are added), and if the user's roles change they would need to logout and then login again to have them take effect.</p>
+<p>Another approach, which will take in this lab, is to use a claims-transformation approach and load the roles on each request.
+The role assignments will be configured via an external configuration file, and this is a typical design where the identity data is maintained separate from authorization data.
+These roles will then augment the in-memory <code>ClaimsPrincipal</code> created on each request from the authentication cookie.
+To perform the role mappings, we will use the open source <code>PolicyServer.Local</code> framework (whose NuGet has already been referenced in the project).</p>
+<p><code>PolicyServer.Local</code> uses JSON syntax in <code>~/appsettings.json</code> to define the mappings. Open that file and have a look at what's been configured in the &quot;Policy&quot; section. It should looks like this:</p>
+<pre><code>  &quot;Policy&quot;: {
+    &quot;roles&quot;: [
+      {
+        &quot;name&quot;: &quot;Reviewer&quot;,
+        &quot;subjects&quot;: [ &quot;user1&quot;, &quot;user2&quot;, &quot;user3&quot; ]
+      },
+      {
+        &quot;name&quot;: &quot;Customer&quot;,
+        &quot;subjects&quot;: [ &quot;user4&quot; ]
+      },
+      {
+        &quot;name&quot;: &quot;Admin&quot;,
+        &quot;subjects&quot;: [ &quot;user5&quot; ]
+      }
+    ]
+  }
+</code></pre>
+<p>This indicates which users should be reviewers, customers, and admins.</p>
+<p>The next thing we want to do is make the services from <code>PolicyServer.Local</code> available to the application by adding them into the DI system in <code>~/Startup.cs</code>.
+Do this in the <code>ConfigureServices</code> method.</p>
+<ul>
+<li>Call <code>AddPolicyServerClient</code> and pass the configuration loaded via <code>Configuration.GetSection(&quot;Policy&quot;)</code>.</li>
+</ul>
+<pre><code>services.AddPolicyServerClient(Configuration.GetSection(&quot;Policy&quot;));
+</code></pre>
+<p>Next, add the middleware to perform the claims transformation via <code>UsePolicyServerClaims</code>.
+Add this in <code>Configure</code> after the authentication middleware and before the authorization middleware.</p>
+<pre><code>app.UseAuthentication();
+
+app.UsePolicyServerClaims();
+
+app.UseAuthorization();
+</code></pre>
+<p>If you run the application and login, then on the home page you should see the appropriate role now being added on each request to the user's list of claims.</p>
+<h2>Part 4: Policy-based authorization</h2>
+<p>Now that we have roles for the user, we can implement and enfore our search authorization, such that only customers may use the search feature.
+This involves building an ASP.NET Core authorization policy that will grant access to users based on their role.</p>
+<ul>
+<li>Add a call to <code>AddAuthorization</code> in <code>ConfigureServices</code>.</li>
+<li>In the call accept an delegate that passes the options.</li>
+</ul>
+<pre><code>services.AddAuthorization(options =&gt;
+{
+    ...
+});
+</code></pre>
+<ul>
+<li>In the callback, use the options API <code>AddPolicy</code> to create a new policy and name it <code>&quot;SearchPolicy&quot;</code>.</li>
+<li>Build the policy to use <code>RequireAuthenticatedUser</code> and <code>RequireAssertion</code>.
+<ul>
+<li>For the assertion callback check for either the <code>&quot;Admin&quot;</code> or <code>&quot;Customer&quot;</code> role claim and if they are present return <code>true</code>. Return <code>false</code> otherwise.</li>
+</ul>
+</li>
+</ul>
+<pre><code>services.AddAuthorization(options =&gt;
+{
+    options.AddPolicy(&quot;SearchPolicy&quot;, builder =&gt;
+    {
+        builder.RequireAuthenticatedUser();
+        builder.RequireAssertion(ctx =&gt;
+        {
+            if (ctx.User.HasClaim(&quot;role&quot;, &quot;Admin&quot;) ||
+                ctx.User.HasClaim(&quot;role&quot;, &quot;Customer&quot;))
+            {
+                return true;
+            }
+            return false;
+        });
+    });
+});
+</code></pre>
+<ul>
+<li>Now apply the <code>&quot;SearchPolicy&quot;</code> to the <code>Search</code> action method on the <code>MovieController</code>.</li>
+</ul>
+<pre><code>[Authorize(&quot;SearchPolicy&quot;)]
+public IActionResult Search(string searchTerm = null)
+{
+    ...
+}
+</code></pre>
+<ul>
+<li>Run the application to test that only customers or admins (i.e. <strong>user4</strong> or <strong>user5</strong>) are allowed to use the search feature.
+If not allowed, you should be redirected to the &quot;access denied&quot; page.</li>
+</ul>
+<p>As your authorization requirements grow, you might need more and more policies.
+To help with this problem, there is another library called <code>PolicyServer.Local</code> in the solution.
+It has a permission feature to dynamically create ASP.NET Core policies that are granted by roles.
+We will change our application to use this for the <code>&quot;SearchPolicy&quot;</code> just to show how it works.</p>
+<p>First, comment out the <code>&quot;SearchPolicy&quot;</code> that we just added.</p>
+<pre><code>services.AddAuthorization(options =&gt;
+{
+    //options.AddPolicy(&quot;SearchPolicy&quot;, builder =&gt;
+    //{
+    //    builder.RequireAuthenticatedUser();
+    //    builder.RequireAssertion(ctx =&gt;
+    //    {
+    //        if (ctx.User.HasClaim(&quot;role&quot;, &quot;Admin&quot;) ||
+    //            ctx.User.HasClaim(&quot;role&quot;, &quot;Customer&quot;))
+    //        {
+    //            return true;
+    //        }
+    //        return false;
+    //    });
+    //});
+});
+</code></pre>
+<p>Next, enable the dynamic policy feature in <code>PolicyServer.Local</code> in the DI system by adding a call to <code>AddAuthorizationPermissionPolicies</code>.</p>
+<pre><code>services.AddPolicyServerClient(Configuration.GetSection(&quot;Policy&quot;))
+    .AddAuthorizationPermissionPolicies();
+</code></pre>
+<p>Next, add the permission in <code>~/appsettings.json</code>.</p>
+<pre><code>&quot;Policy&quot;: {
+    &quot;roles&quot;: [
+      {
+        &quot;name&quot;: &quot;Reviewer&quot;,
+        &quot;subjects&quot;: [ &quot;user1&quot;, &quot;user2&quot;, &quot;user3&quot; ]
+      },
+      {
+        &quot;name&quot;: &quot;Customer&quot;,
+        &quot;subjects&quot;: [ &quot;user4&quot; ]
+      },
+      {
+        &quot;name&quot;: &quot;Admin&quot;,
+        &quot;subjects&quot;: [ &quot;user5&quot; ]
+      }
+    ],
+    &quot;permissions&quot;: [
+      {
+        &quot;name&quot;: &quot;SearchPolicy&quot;,
+        &quot;roles&quot;: [ &quot;Customer&quot;, &quot;Admin&quot; ]
+      }
+    ]
+  }
+</code></pre>
+<p>This declares a permission called <code>&quot;SearchPolicy&quot;</code> which creates the dynamic ASP.NET policy with the same name.</p>
+<p>Finally, test that the permission now works for the search feature. Note that we are still using the <code>[Authorize(&quot;SearchPolicy&quot;)]</code> to trigger the policy and enforce the requirement, but it's sourced dynamically from the permission mapping rather than hand-coding the logic.</p>
+<h2>[Challenge] Resource-based authorization</h2>
+<p>For a challenge, you can try to use the resource-based authorization feature in ASP.NET Core's authorization system.
+The authorization logic we require is to only allow reviewers to create and edit reviews.
+We will do this by building authorization handlers.</p>
+<ul>
+<li>Expand the <code>~/Authorization</code> folder.
+This contains the beginings of the authorization handlers.
+Open the files and inspect the starter code.</li>
+<li>For the <code>MovieAuthorizationHandler</code> implement the logic that only reviewers are allowed to review movies.</li>
+</ul>
+<pre><code>protected override Task HandleRequirementAsync(
+    AuthorizationHandlerContext context, 
+    OperationAuthorizationRequirement requirement, 
+    MovieDetails movie)
+{
+    if (requirement == MovieOperations.Review)
+    {
+        if (context.User.HasClaim(&quot;role&quot;, &quot;Reviewer&quot;))
+        {
+            context.Succeed(requirement);
+        }
+    }
+    return Task.FromResult(0);
+}
+</code></pre>
+<ul>
+<li>For the <code>ReviewAuthorizationHandler</code> implement the logic that only the reviewer that created the review can edit it.
+<ul>
+<li>Use the <code>sub</code> claim on the user and compare it to the <code>UserId</code> property on the <code>MovieReview</code>.</li>
+<li>Also, allow admins to perform any operation.</li>
+</ul>
+</li>
+</ul>
+<pre><code>protected override Task HandleRequirementAsync(
+    AuthorizationHandlerContext context, 
+    OperationAuthorizationRequirement requirement, 
+    MovieReview review)
+{
+    if (context.User.HasClaim(&quot;role&quot;, &quot;Admin&quot;))
+    {
+        context.Succeed(requirement);
+    }
+
+    if (requirement == ReviewOperations.Edit)
+    {
+        var sub = context.User.FindFirst(&quot;sub&quot;)?.Value;
+        if (sub != null &amp;&amp; review.UserId == sub)
+        {
+            context.Succeed(requirement);
+        }
+    }
+    return Task.FromResult(0);
+}
+</code></pre>
+<ul>
+<li>To use these authorization handlers, they need to be registered in DI in <code>ConfigureServices</code>. Do that now.</li>
+</ul>
+<pre><code>services.AddTransient&lt;IAuthorizationHandler, ReviewAuthorizationHandler&gt;();
+services.AddTransient&lt;IAuthorizationHandler, MovieAuthorizationHandler&gt;();
+</code></pre>
+<p>Next we want to invoke the authorization logic in the MVC code to protect access.</p>
+<ul>
+<li>In the <code>ReviewController</code> controller change the consructor and inject an <code>IAuthorizationService</code> and store it in a member variable.</li>
+</ul>
+<pre><code>private IAuthorizationService _authorization;
+public ReviewController(ReviewService reviews, 
+    MovieService movies, IAuthorizationService authorization)
+{
+    _reviews = reviews;
+    _movies = movies;
+    _authorization = authorization;
+}
+</code></pre>
+<ul>
+<li>In <code>New</code> enforce the authorization for creating a review for the movie. If the user is not allowed, then return the result from <code>Forbid</code>.</li>
+</ul>
+<pre><code>var authz = await _authorization.AuthorizeAsync(User, 
+    movie, Authorization.MovieOperations.Review);
+if (!authz.Succeeded)
+{
+    return Forbid();
+}
+</code></pre>
+<ul>
+<li>In <code>Edit</code> and <code>Delete</code> enforce the authorization for editing the review.</li>
+</ul>
+<pre><code>var authz = await _authorization.AuthorizeAsync(User, 
+    review, Authorization.ReviewOperations.Edit);
+if (!authz.Succeeded)
+{
+    return Forbid();
+}
+</code></pre>
+<ul>
+<li>Run the application and test that only reviewers can create reviews, and that reviewers can only edit their own reviews.</li>
+</ul>
+<p>Next we want to hide the buttons in the UI if the user is not allowed to create or edit reviews.</p>
+<ul>
+<li>In <code>~/Views/Movie/Details.cshtml</code> notice the <code>IAuthorizationService</code> is already being injected.</li>
+<li>Locate the &quot;create review&quot; button and hide it if the user is not authorized.</li>
+</ul>
+<pre><code>@{ 
+    var authz = await authorization.AuthorizeAsync(User,
+        Model, MoviesWebApp.Authorization.MovieOperations.Review);
+    if (authz.Succeeded)
+    {
+        &lt;div class=&quot;row search-form&quot;&gt;
+            &lt;a asp-action=&quot;New&quot; asp-controller=&quot;Review&quot; 
+                asp-route-movieId=&quot;@Model.Id&quot; 
+                class=&quot;btn btn-primary&quot;&gt;Write a review&lt;/a&gt;
+        &lt;/div&gt;
+    }
+}
+</code></pre>
+<ul>
+<li>Locate the &quot;edit review&quot; button and hide it is the user is not authorized.</li>
+</ul>
+<pre><code>&lt;td&gt;
+@{ 
+    var editAuthz = await authorization.AuthorizeAsync(User,
+        review, MoviesWebApp.Authorization.ReviewOperations.Edit);
+    if (editAuthz.Succeeded)
+    {
+        &lt;a asp-action=&quot;Edit&quot; asp-controller=&quot;Review&quot; 
+            asp-route-id=&quot;@review.Id&quot; 
+            class=&quot;btn btn-primary&quot;&gt;edit&lt;/a&gt;
+    }
+}
+&lt;/td&gt;
+</code></pre>
+<ul>
+<li>Run and test that the buttons are now hidden when appropriate.</li>
+</ul>
+<p>Finally, we need to make a change in our authorization logic.
+Reviewers are not allowed to create reviews for all movies. Certain reviewers are only allowed to review movies from certain countries.
+This logic requires a lookup in a permission database and this is implemented in a class called <code>ReviewPermissionService</code>.
+You will now incorporate this additional logic in the <code>MovieAuthorizationHandler</code>.</p>
+<ul>
+<li>Change the constructor to accept the <code>ReviewPermissionService</code> and store it in a member variable.</li>
+</ul>
+<pre><code>private ReviewPermissionService _reviewPermissions;
+public MovieAuthorizationHandler(ReviewPermissionService reviewPermissions)
+{
+    _reviewPermissions = reviewPermissions;
+}
+</code></pre>
+<ul>
+<li>In <code>Handle</code> after the role check, invoke <code>GetAllowedCountries</code> on the <code>ReviewPermissionService</code> and compare the movie's <code>CountryName</code> to the returned list. Only if the movie is from an allowed country, then call <code>Succeed</code>.</li>
+</ul>
+<pre><code>protected override Task HandleRequirementAsync(
+    AuthorizationHandlerContext context, 
+    OperationAuthorizationRequirement requirement, 
+    MovieDetails movie)
+{
+    if (requirement == MovieOperations.Review)
+    {
+        if (context.User.HasClaim(&quot;role&quot;, &quot;Reviewer&quot;))
+        {
+            var allowed = _reviewPermissions.GetAllowedCountries(context.User);
+            if (allowed.Contains(movie.CountryName))
+            {
+                context.Succeed(requirement);
+            }
+        }
+    }
+
+    return Task.FromResult(0);
+}
+</code></pre>
+<ul>
+<li>Run and test the country-specific authorization. <em>user1</em> should be able to create reviews from any country, but <em>user2</em> cannot create a review for France.</li>
+</ul>
+<hr />
+<p>Copyright © 2020 <a href="https://duendesoftware.com/">Duende Software</a>. All rights reserved.</p>
+
+
+</body></html>

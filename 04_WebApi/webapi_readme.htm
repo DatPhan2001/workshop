@@ -1,0 +1,293 @@
+﻿
+<!DOCTYPE html>
+<html><head>
+<style>
+body {
+    width:900px;
+    margin:auto;
+    padding:10px;
+    padding-top:30px;
+    font-sie:14pt;  
+    line-height:140%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#444;
+}
+h1 {
+    padding-left:80px;
+    padding-top:30px;
+    min-height:70px;
+    line-height:120%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABUCAYAAAAoEtHdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVGSURBVHhe5ZzPbhNXFMav/yTmj4CqGxYgEVSJbVh3ExZ9AN4AqLoH9lSkah8g3VeQPAGwr0TZVF0mq0qVihpFzaIISAi2Gdsz7vlmzgzX8YztmXtsz73zkyYzd1CQ/eW73z3nxpnacDhUVeS7jadf0OkuH+u4p/GCjue/vLq3HQ0/U0nBSKzbdIIYl8Ib2byi4y4J9080rKBgJBYc9TQazcQxHbdItF0M6vhSFUism3TKIxaAC5OpWSnBiC0+52WdnVkdwfgNb0SjQmziSyUyjMTCiojgnhby07heFYfBHaZigTXnBeOgvx+NzKmCw4oGfSpOCyYQ9KfZdVYwDnpJd72g4vXIZYdJBX1MKL6TZQW56xadXkYjEeAu9J/OZpjkVEQv+SC6dFAwchfe3OntGhO2nN2t4KCXqOhj9kmsNb4Occ1hmIqSQR823DrOOGyeQa/jksPmFvQ6Tgg276DXsX5KziHo90gsNOypuOAw6aBPnYoxVgvGQX8nGomwQ+76ja9Tsd1hCwl6HWsFm0PQb5K7jvg6EytDf9FBr2OrwxYa9DrWCbaMoNex0WELD3odqwRbVtDrWBP6ywx6HZsctrSg10l12E/f/o59IITryObZsuh5/tVeN/hKqaGKXu7oax74fdXrdZTnnaggGPDdiSDox/a6ZmFEMBIK+z/4SV4Lb5SE9rGvAn+26PC8D6rdfUvCBnxnDAT9Wt7sikmmJIkFoZ7RUSqxep+CmcUCrdZFdenCFVWrZaZN7qDXCR3GUzDvB83mThAMVYfcVWRdGvg9dfzhgEcJhYJep05iIackaxsxKLcKiQWajVV17uyXPEooFPQ68C3+E8nVRwS4q+8VVIs50xp5W7kq+iwg2NhGfxnw+2ZiAeTY6sp5XOau6LOAYKUK+ZjA5wtDms0WTkZBr5O5lCwbf2DuMND1um0SSyyjSytYvcEXhvT63uo3N75HWyUCBMP8Lh21eo2vzPjU66zQSSS/AAQzXjnmwcqqjGAn7fc4PSaXibR5EKyUNVi9UVONpplob48OaUp2eRR9zt6U+qMnX8Nh+Out0tE6WzxifWrCD9+85lHIHXIZNhSMiF8RWqO96LI8NFZqqllwav59sKu7K8bYZaFg5DLUKFC/dE5rncvnsv7AU3++/iPOrtNskMuMCvWx/TDqLSEcVhWcS9EyeZ0g3LWYxMD31H/vDsLD9yfuie3/+tePhReAqVvULOBSabc7l/893N+m13qGb4VQjaVOPh6nTb1pPCTRCi12UwUrCzSVkD+Po5Ex4SYiiZa7XSq+DC0eOGI/ujQGUVOomLXGYYBcJr3ReZ1clvrBuSxscpiiN4c/JZYsf3KXGVYJxoj1hQSK2Vxb1tYJRi5DZ4LHI0iRa7W00WGg0O8UM0AxO3PpZKVgHNQ70UiEsSegZGGrwwCyTGov7xqvwFOxVjAuOiW3prZItKk7szY7DCy8mLVaMHaZyMYg84BcNrExt91hcTEr6bKJPwDrBWMky4yJxawTgi2ymHXFYUCyZcosZp0RjFyGB6JJFrOpLnPJYQCBLVXMrqcVs04JRi5DyyRZzG6eLmZdcxiAYGItEx0j2eicYFzMSi4AKGYTl7nosHkUs0mWOSkYI1nMJr/8dVYw4WI2eQaZyw4Dko15iNOCscski1nnHQYkXJZMbecF42L2h2hUGDg1pAoOAybFLL6vWs+i5mK2aJmxyS4NqYrDINpzOv0cjWZmh75vpDetjGCA3jxapnt0TJue+Hd8hmzMlVZ9ekcK7g0hBip4/cG4WA0R8Nv6NPyMUv8Db173no+B3RYAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+}
+pre {
+    padding:12px;
+    background-color:#eee;
+}
+code {
+    font-size:1.3em;
+    color:rgb(200, 0, 0);
+    padding:2px;
+    line-height:normal;
+}
+
+</style>
+</head><body>
+<h1>Web APIs</h1>
+<hr />
+<p>This lab is based on a simple movie review website.
+It allows customers to browse and search movies and view movie reviews.
+It also allows reviewers to create and edit movie reviews.</p>
+<h2>Overview</h2>
+<p>In this lab the movie review logic has been split into two projects: one for the back-end movie review logic as a web API, and one for the front-end movie review UI as a web application.
+The web API will require access tokens to use its functionality, and the movie review web app will obtain access tokens and pass them to the web API.
+Duende IdentityServer will be used to issue this access token to the movie review web application.</p>
+<p><strong>Lab Note</strong>: For this lab you will need to keep three solutions open: one for IdentityServer, one for the movie review web API, and another for the movie review client application.</p>
+<h2>Part 1: Configuring the movie review web API to accept access tokens</h2>
+<p>Much of the movie review functionality has been reworked into a web API.
+This includes the data access and the authorization logic.
+In this part you will get familiar with the web API and then configure it to accept access tokens from IdentityServer.</p>
+<ul>
+<li>Open the &quot;MoviesWebApi&quot; solution from <code>~/before</code>.</li>
+<li>Spend some time examining how the web API project is structured.
+<ul>
+<li>Open <code>~/Startup.cs</code>.
+<ul>
+<li>Find the <code>ConfigureServices</code> method.
+<ul>
+<li>Notice <code>AddMoviesLibrary</code> is still being used to register the movie services in DI. Also notice the authorization system is configured the same as it was in the prior labs.</li>
+<li>Notice the two authorization policies that are added with <code>AddAuthorization</code>.
+<ul>
+<li><code>&quot;TokenScopePolicy&quot;</code> is for validating the scope in the access token.</li>
+<li><code>&quot;SearchPolicy&quot;</code> is for validaing the user's permissions in the API.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Find the <code>Configure</code> method.
+<ul>
+<li>Notice calls to <code>UseAuthentication</code> and <code>UseAuthorization</code> have been added to include the authentication and authorization middleware in the pipeline.</li>
+<li>Notice how the <code>&quot;TokenScopePolicy&quot;</code> is being used on the controller endpoint to validate the scope in the access token.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Inspect the code in <code>~/Controllers</code>.
+This is the web API code to access the movie review functionality.
+<ul>
+<li>Notice how the authorization logic from the prior labs has been adapted to the web API project.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>We need to configure this web API project to accept tokens from IdentityServer.</p>
+<ul>
+<li>Open <code>~/Startup.cs</code> and find the <code>ConfigureServices</code> method.</li>
+<li>Add a call to <code>AddAuthentication</code> to add the authentication services.
+<ul>
+<li>Set <code>&quot;Bearer&quot;</code> as the default scheme.</li>
+</ul>
+</li>
+<li>Using the fluent API, call <code>AddJwtBearer</code> to add JWT support.
+<ul>
+<li>On the options set:
+<ul>
+<li><code>Authority</code> to <code>&quot;https://localhost:5001/&quot;</code> which is the URL for IdentityServer.</li>
+<li><code>MapInboundClaims</code> to <code>false</code>.</li>
+<li><code>TokenValidationParameters.ValidateAudience</code> to <code>false</code> since we have the <code>&quot;TokenScopePolicy&quot;</code> in place to validate if the token is allowed in the movie API.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>services.AddAuthentication(&quot;Bearer&quot;)
+    .AddJwtBearer(&quot;Bearer&quot;, options =&gt; { 
+        options.Authority = &quot;https://localhost:5001/&quot;;
+        options.MapInboundClaims = false;
+        options.TokenValidationParameters.ValidateAudience = false;
+    });
+</code></pre>
+<ul>
+<li>Build and run the movie web API project to ensure it's working.</li>
+</ul>
+<p>Next we will configure IdentityServer for this web API.</p>
+<ul>
+<li>Open the &quot;IdentityServerHost&quot; solution from <code>~/before</code>.</li>
+<li>Open <code>~/Config.cs</code> and find the <code>ApiScopes</code> configuration.</li>
+<li>Add a new <code>ApiScope</code> and to the constructor pass:
+<ul>
+<li><code>name</code> to <code>&quot;movie_api&quot;</code>.</li>
+<li><code>displayName</code> to <code>&quot;Movie Review Service&quot;</code>.</li>
+</ul>
+</li>
+<li>Also set the <code>UserClaims</code> collection and add <code>&quot;role&quot;</code> since our API requires the user's role claim for its authorization logic.</li>
+</ul>
+<pre><code>new ApiScope(&quot;movie_api&quot;, &quot;Movie Review Service&quot;)
+{
+    UserClaims = { &quot;role&quot; }
+}
+</code></pre>
+<ul>
+<li>Build and run IdentityServer to ensure it's working.</li>
+</ul>
+<h2>Part 2: Update movie review web app to obtain and use access tokens for the movie review web API</h2>
+<p>In this part you will update the movie review web application to obtain access tokens on behalf of the user
+and then use the access token to call the web API.</p>
+<ul>
+<li>Open the &quot;MoviesWebApp&quot; solution from <code>~/before</code>.</li>
+<li>Spend some time examining how the web app is now structured.
+<ul>
+<li>Open <code>~/Startup.cs</code> and find the <code>ConfigureServices</code> method.
+<ul>
+<li>Notice the call to <code>AddMoviesLibrary</code>. This now accepts a URL for configuring where to call the web API.</li>
+<li>Notice the registration of the <code>AddAccessTokenAccessor</code> class. This is used by the &quot;MoviesLibrary&quot; code to obtain the access token to use when calling the web APIs.</li>
+</ul>
+</li>
+<li>Open <code>~/AccessTokenAccessor.cs</code> and find the <code>GetAccessTokenAsync</code> method.
+<ul>
+<li>Notice it returns <code>null</code> for the access token (for now).</li>
+</ul>
+</li>
+<li>In the &quot;MoviesLibrary&quot; project open <code>~/MovieService.cs</code>.
+<ul>
+<li>Notice the constructor which accepts an <code>IAccessTokenAccessor</code>.</li>
+<li>Notice the <code>GetHttpClientAsync</code> method which creates the <code>HttpClient</code> to call the web API.
+It uses the <code>IAccessTokenAccessor</code> for setting the &quot;Bearer&quot; token (if present).</li>
+<li>Notice the other methods in this class using the <code>HttpClient</code> and how they are now checking for 401 and 403 status codes, and returning an <code>AccessDenied</code> result.</li>
+<li>Notice the code in <code>~/ReviewService.cs</code> is similar.</li>
+</ul>
+</li>
+<li>Back in the &quot;MoviesWebApp&quot; project open <code>~/Controllers/MovieController.cs</code>.
+<ul>
+<li>Notice how the <code>MovieService</code> is used in the various action methods.
+The code is checking for <code>IsAccessDenied</code> and calling <code>Forbid</code>, as the authorization logic now resides in the web API project.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Now that you've looked over the restructured code, we can run it and see how it works without access tokens.</p>
+<ul>
+<li>Run the movie web application and login.</li>
+<li>Once logged in, you should see on the home page the list of claims for the user.
+The access token is listed in the list of claims, and at this point should be empty.
+This shows that we do not currently have an access token.
+If you try to use any of the functions in the app you should get the &quot;Access Denied&quot; message.</li>
+</ul>
+<p>Next you will change the movies web app to request an access token using code flow with PKCE.</p>
+<ul>
+<li>Open <code>~/Startup.cs</code> and find the <code>ConfigureServices</code> method.</li>
+<li>Locate the call to <code>AddOpenIdConnect</code>.</li>
+<li>Change the following properties on the <code>OpenIdConnectOptions</code>:
+<ul>
+<li><code>ResponseType</code> should now be <code>&quot;code&quot;</code>.</li>
+<li><code>Scope</code> should now include <code>&quot;movie_api&quot;</code>.</li>
+<li>Add a new property <code>ClientSecret</code> and set it to <code>&quot;secret&quot;</code>.</li>
+<li>Set <code>GetClaimsFromUserInfoEndpoint</code> to <code>true</code>.</li>
+</ul>
+</li>
+</ul>
+<pre><code>.AddOpenIdConnect(&quot;oidc&quot;, options =&gt;
+{
+    options.Authority = &quot;https://localhost:5001/&quot;;
+
+    options.ClientId = &quot;movie_client&quot;;
+    options.ClientSecret = &quot;secret&quot;;
+
+    options.MapInboundClaims = false;
+
+    options.ResponseType = &quot;code&quot;;
+    options.SaveTokens = true;
+    options.GetClaimsFromUserInfoEndpoint = true;
+
+    options.Scope.Add(&quot;openid&quot;);
+    options.Scope.Add(&quot;profile&quot;);
+    options.Scope.Add(&quot;email&quot;);
+    options.Scope.Add(&quot;movie_api&quot;);
+
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        NameClaimType = &quot;name&quot;,
+        RoleClaimType = &quot;role&quot;
+    };
+})
+</code></pre>
+<p>Next, we need to change the configuration in IdentityServer to reflect these changes.</p>
+<ul>
+<li>Back in the &quot;IdentityServerHost&quot; project, open <code>~/Config.cs</code>.</li>
+<li>Find the <code>Clients</code> configuration.</li>
+<li>For the <code>&quot;movie_client&quot;</code> entry, change these properties:
+<ul>
+<li>Change <code>AllowedGrantTypes</code> to <code>GrantTypes.Code</code>.</li>
+<li>Set the <code>ClientSecrets</code> collection, and add a <code>Secret</code> passing <code>&quot;secret&quot;.Sha256()</code> to the constructor.
+IdentityServer assumes that secrets stored are hashed, thus the need for the <code>.Sha256()</code> on the value.</li>
+<li>Add <code>&quot;movie_api&quot;</code> to the <code>AllowedScopes</code>.</li>
+</ul>
+</li>
+</ul>
+<pre><code>new Client
+{
+    ClientId = &quot;movie_client&quot;,
+    ClientName = &quot;Movie Review App&quot;,
+    AllowedGrantTypes = GrantTypes.Code,
+    ClientSecrets = 
+    {
+        new Secret(&quot;secret&quot;.Sha256())
+    },
+    RedirectUris = 
+    {
+        &quot;https://localhost:5005/signin-oidc&quot;
+    },
+
+    PostLogoutRedirectUris = 
+    {
+        &quot;https://localhost:5005/signout-callback-oidc&quot;
+    },
+
+    AllowedScopes = 
+    {
+        IdentityServerConstants.StandardScopes.OpenId,
+        IdentityServerConstants.StandardScopes.Profile,
+        IdentityServerConstants.StandardScopes.Email,
+        &quot;movie_api&quot;
+    }
+}
+</code></pre>
+<ul>
+<li>Re-run IdentityServer with the new configuration changes.</li>
+<li>Re-run the movie web app and login. You should now see an <code>access_token</code> on the home page with a value.</li>
+</ul>
+<p>At this point, we're still not using the access token, so we'll do that now.</p>
+<ul>
+<li>Back in the &quot;MoviesWebApp&quot; project open <code>~/AccessTokenAccessor.cs</code> and find the <code>GetAccessTokenAsync</code> method.</li>
+<li>Change this method to get the access token by calling the <code>GetTokenAsync</code> extension method on the <code>HttpContext</code>.
+<ul>
+<li>Pass <code>&quot;access_token&quot;</code> as the parameter to <code>GetTokenAsync</code> extension method.</li>
+<li>Use the access token as the return value from this method.</li>
+</ul>
+</li>
+</ul>
+<pre><code>public Task&lt;string&gt; GetAccessTokenAsync()
+{
+    return _context.HttpContext.GetTokenAsync(&quot;access_token&quot;);
+}
+</code></pre>
+<ul>
+<li>Run the movie web app and login.
+You should now be able to view the list of movies and use the other features of the movie review application.</li>
+</ul>
+<h2>Part 3: [Challenge] Use refresh tokens</h2>
+<p>At some point the access token that's being used by the movie web app will expire.
+This will cause the web API to fail with a 401.
+To allow the movie review app to continue to use the web API, you will need to use refresh tokens.
+Your challenge is to use refresh tokens -- see if you can get it working!</p>
+<p><em>Hint</em>: This will involve requesting the <code>offline_access</code> scope, using the <code>GetTokenAsync(&quot;refresh_token&quot;)</code> extension method, and contacting the token endpoint in IdentityServer.
+You might want to use the <code>TokenClient</code> class in the &quot;IdentityModel&quot; Nuget package for accessing the token endpoint.
+This also might involve reworking the &quot;MoviesLibrary&quot; to distinguish between &quot;access denied&quot; and &quot;forbidden&quot; for security failures.</p>
+<hr />
+<p>Copyright © 2020 <a href="https://duendesoftware.com/">Duende Software</a>. All rights reserved.</p>
+
+
+</body></html>

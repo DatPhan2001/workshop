@@ -1,0 +1,252 @@
+﻿
+<!DOCTYPE html>
+<html><head>
+<style>
+body {
+    width:900px;
+    margin:auto;
+    padding:10px;
+    padding-top:30px;
+    font-sie:14pt;  
+    line-height:140%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#444;
+}
+h1 {
+    padding-left:80px;
+    padding-top:30px;
+    min-height:70px;
+    line-height:120%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABUCAYAAAAoEtHdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVGSURBVHhe5ZzPbhNXFMav/yTmj4CqGxYgEVSJbVh3ExZ9AN4AqLoH9lSkah8g3VeQPAGwr0TZVF0mq0qVihpFzaIISAi2Gdsz7vlmzgzX8YztmXtsz73zkyYzd1CQ/eW73z3nxpnacDhUVeS7jadf0OkuH+u4p/GCjue/vLq3HQ0/U0nBSKzbdIIYl8Ib2byi4y4J9080rKBgJBYc9TQazcQxHbdItF0M6vhSFUism3TKIxaAC5OpWSnBiC0+52WdnVkdwfgNb0SjQmziSyUyjMTCiojgnhby07heFYfBHaZigTXnBeOgvx+NzKmCw4oGfSpOCyYQ9KfZdVYwDnpJd72g4vXIZYdJBX1MKL6TZQW56xadXkYjEeAu9J/OZpjkVEQv+SC6dFAwchfe3OntGhO2nN2t4KCXqOhj9kmsNb4Occ1hmIqSQR823DrOOGyeQa/jksPmFvQ6Tgg276DXsX5KziHo90gsNOypuOAw6aBPnYoxVgvGQX8nGomwQ+76ja9Tsd1hCwl6HWsFm0PQb5K7jvg6EytDf9FBr2OrwxYa9DrWCbaMoNex0WELD3odqwRbVtDrWBP6ywx6HZsctrSg10l12E/f/o59IITryObZsuh5/tVeN/hKqaGKXu7oax74fdXrdZTnnaggGPDdiSDox/a6ZmFEMBIK+z/4SV4Lb5SE9rGvAn+26PC8D6rdfUvCBnxnDAT9Wt7sikmmJIkFoZ7RUSqxep+CmcUCrdZFdenCFVWrZaZN7qDXCR3GUzDvB83mThAMVYfcVWRdGvg9dfzhgEcJhYJep05iIackaxsxKLcKiQWajVV17uyXPEooFPQ68C3+E8nVRwS4q+8VVIs50xp5W7kq+iwg2NhGfxnw+2ZiAeTY6sp5XOau6LOAYKUK+ZjA5wtDms0WTkZBr5O5lCwbf2DuMND1um0SSyyjSytYvcEXhvT63uo3N75HWyUCBMP8Lh21eo2vzPjU66zQSSS/AAQzXjnmwcqqjGAn7fc4PSaXibR5EKyUNVi9UVONpplob48OaUp2eRR9zt6U+qMnX8Nh+Out0tE6WzxifWrCD9+85lHIHXIZNhSMiF8RWqO96LI8NFZqqllwav59sKu7K8bYZaFg5DLUKFC/dE5rncvnsv7AU3++/iPOrtNskMuMCvWx/TDqLSEcVhWcS9EyeZ0g3LWYxMD31H/vDsLD9yfuie3/+tePhReAqVvULOBSabc7l/893N+m13qGb4VQjaVOPh6nTb1pPCTRCi12UwUrCzSVkD+Po5Ex4SYiiZa7XSq+DC0eOGI/ujQGUVOomLXGYYBcJr3ReZ1clvrBuSxscpiiN4c/JZYsf3KXGVYJxoj1hQSK2Vxb1tYJRi5DZ4LHI0iRa7W00WGg0O8UM0AxO3PpZKVgHNQ70UiEsSegZGGrwwCyTGov7xqvwFOxVjAuOiW3prZItKk7szY7DCy8mLVaMHaZyMYg84BcNrExt91hcTEr6bKJPwDrBWMky4yJxawTgi2ymHXFYUCyZcosZp0RjFyGB6JJFrOpLnPJYQCBLVXMrqcVs04JRi5DyyRZzG6eLmZdcxiAYGItEx0j2eicYFzMSi4AKGYTl7nosHkUs0mWOSkYI1nMJr/8dVYw4WI2eQaZyw4Dko15iNOCscski1nnHQYkXJZMbecF42L2h2hUGDg1pAoOAybFLL6vWs+i5mK2aJmxyS4NqYrDINpzOv0cjWZmh75vpDetjGCA3jxapnt0TJue+Hd8hmzMlVZ9ekcK7g0hBip4/cG4WA0R8Nv6NPyMUv8Db173no+B3RYAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+}
+pre {
+    padding:12px;
+    background-color:#eee;
+}
+code {
+    font-size:1.3em;
+    color:rgb(200, 0, 0);
+    padding:2px;
+    line-height:normal;
+}
+
+</style>
+</head><body>
+<h1>External Authentication</h1>
+<hr />
+<p>This lab is based on a simple movie review website.
+It allows customers to browse and search movies and view movie reviews.
+It also allows reviewers to create and edit movie reviews.</p>
+<h2>Overview</h2>
+<p>In this lab you will remove the local authentication in the movie review application and change it to use external authentication.
+For the first part, you will use the OIDC protocol and use Duende IdentityServer as the provider.
+For the second part, you will use social media accounts as the provider.</p>
+<p><strong>Lab Note</strong>: For this lab you will need to keep two solutions open: one for IdentityServer and another for the movie review client application.
+IdentityServer will need to be running for the client application to authentiate users.</p>
+<h2>Part 1: Setting up IdentityServer</h2>
+<p>Since we need IdentityServer running, in this part we will simply open the solution and launch the server.</p>
+<ul>
+<li>Open the &quot;IdentityServerHost&quot; solution from the <code>~/before</code> folder. Inspect the structure of the project.</li>
+<li>Open <code>~/Program.cs</code>.
+<ul>
+<li>Notice how we have console logging enabled.</li>
+<li>Notice the calls to <code>ConfigureServices</code> and <code>ConfigurePipeline</code> which are custom extension methods.</li>
+</ul>
+</li>
+<li>Open <code>~/HostingExtensions.cs</code>.
+<ul>
+<li>Find <code>ConfigureServices</code> and notice how IdentityServer is being setup in DI.</li>
+<li>Find <code>ConfigurePipeline</code> and notice how IdentityServer is being added as middleware.</li>
+</ul>
+</li>
+<li>Open <code>~/Config.cs</code>. This contains the configuration data for IdentityServer.
+<ul>
+<li>Notice the identity resources. This represents the identity data that IdentityServer protects.</li>
+<li>Notice the clients. This represents the client applications that are using IdentityServer.</li>
+<li>Notice the users. This represents the centralized identity data for the users.</li>
+</ul>
+</li>
+</ul>
+<p><strong>If at any time using IdentityServer you experience problems, the log output in the console is where to look to find out what's wrong.</strong></p>
+<ul>
+<li>Launch the server and you should see the IdentityServer welcome page. If you see it, then it's running and you can now configure your client application to use it.</li>
+<li>As you work on the rest of this lab, you will want to leave this solution open so it can continue to run while you work on the client application.</li>
+</ul>
+<h2>Part 2: Using OIDC from the movie review application</h2>
+<p>In this part you will change the movie review application to use IdentityServer for signing in users.</p>
+<ul>
+<li>Open the &quot;MoviesWebApp&quot; from the <code>~/before</code> folder.</li>
+<li>Open <code>~/Startup.cs</code> and locate where the authentication services are added to DI in <code>ConfigureServices</code>.</li>
+<li>Add the OpenID Connect authentication handler to DI.
+<ul>
+<li>Use the <code>AddOpenIdConnect</code> extension method chained to the <code>AddAuthentication</code> method.</li>
+<li>Use <code>&quot;oidc&quot;</code> as the scheme name.</li>
+<li>For the <code>OpenIdConnectOptions</code>:
+<ul>
+<li>Set the authority to <code>&quot;https://localhost:5001/&quot;</code> (which if you noticed is the URL for IdentityServer).</li>
+<li>Set the client id to <code>&quot;movie_client&quot;</code>.</li>
+<li>Set the response type to <code>&quot;id_token&quot;</code>.</li>
+<li>Set <code>MapInboundClaims</code> to <code>false</code>.</li>
+<li>Set the scopes to <code>&quot;openid&quot;</code>, <code>&quot;profile&quot;</code>, and <code>&quot;email&quot;</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>.AddOpenIdConnect(&quot;oidc&quot;, options =&gt;
+{
+    options.Authority = &quot;https://localhost:5001/&quot;;
+
+    options.ClientId = &quot;movie_client&quot;;
+    options.ResponseType = &quot;id_token&quot;;
+
+    options.MapInboundClaims = false;
+
+    options.Scope.Add(&quot;openid&quot;);
+    options.Scope.Add(&quot;profile&quot;);
+    options.Scope.Add(&quot;email&quot;);
+}
+</code></pre>
+<ul>
+<li>Next, in the <code>AccountController</code> change the code that triggers login.
+<ul>
+<li>Change the <code>Login</code> action method to trigger a challenge result and pass <code>&quot;oidc&quot;</code> as the authentication scheme to use the OpenId Connect handler.
+Also pass a <code>AuthenticationProperties</code> and set the <code>RedirectUri</code> to be either the <code>returnUrl</code> parameter or <code>&quot;/&quot;</code> if there is no <code>returnUrl</code>.</li>
+</ul>
+</li>
+</ul>
+<pre><code>[HttpGet]
+public IActionResult Login(string returnUrl)
+{
+    return Challenge(new AuthenticationProperties
+    {
+        RedirectUri = returnUrl ?? &quot;/&quot;
+    }, &quot;oidc&quot;);
+}    
+</code></pre>
+<ul>
+<li>
+<p>Now run the movie review client application.
+Test the login by clicking the &quot;Login&quot; link in the top right of the page.
+You should see the user redirected to IdentityServer and you can use one of the username/passwords you saw configured in the <code>Config.cs</code> file.</p>
+</li>
+<li>
+<p>Notice how when the user is logged in the name is not being shown in the menu.
+This is because the <code>&quot;name&quot;</code> claim is not being used for the <code>Username</code> property from the claims identity class.
+Change the OpenID Connect handler to use the <code>&quot;name&quot;</code> and <code>&quot;role&quot;</code> claims by setting the <code>TokenValidationParameters</code> on the <code>OpenIdConnectOptions</code>.</p>
+</li>
+</ul>
+<pre><code>.AddOpenIdConnect(&quot;oidc&quot;, options =&gt;
+{
+    options.Authority = &quot;https://localhost:5001/&quot;;
+
+    options.ClientId = &quot;movie_client&quot;;
+    options.ResponseType = &quot;id_token&quot;;
+
+    options.MapInboundClaims = false;
+
+    options.Scope.Add(&quot;openid&quot;);
+    options.Scope.Add(&quot;profile&quot;);
+    options.Scope.Add(&quot;email&quot;);
+
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        NameClaimType = &quot;name&quot;,
+        RoleClaimType = &quot;role&quot;
+    };
+})
+</code></pre>
+<ul>
+<li>Now, run the application and visit a movie details page.
+Notice the review buttons are not enabled.
+This is because the only claims that are known are from IdentityServer.
+The application specific claims are no longer in the cookie.
+Add them now.
+<ul>
+<li>Assign the <code>Events</code> property on the <code>OpenIdConnectOptions</code>.</li>
+<li>Handle the <code>OnTicketReceived</code> event.</li>
+<li>Resolve the <code>MovieIdentityService</code> from the DI system (on <code>HttpContext.RequestServices</code> on the notification context).</li>
+<li>Invoke <code>GetClaimsForUser</code> passing the <code>&quot;sub&quot;</code> claim from the <code>Principal</code> on the notification context.</li>
+<li>Add the returned claims to the <code>Principal.Identities.First()</code> claims identity object.</li>
+<li>Return <code>Task.CompletedTask</code> from the method.</li>
+</ul>
+</li>
+</ul>
+<pre><code>.AddOpenIdConnect(&quot;oidc&quot;, options =&gt;
+{
+    options.Authority = &quot;https://localhost:5001/&quot;;
+
+    options.ClientId = &quot;movie_client&quot;;
+    options.ResponseType = &quot;id_token&quot;;
+
+    options.MapInboundClaims = false;
+
+    options.Scope.Add(&quot;openid&quot;);
+    options.Scope.Add(&quot;profile&quot;);
+    options.Scope.Add(&quot;email&quot;);
+
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        NameClaimType = &quot;name&quot;,
+        RoleClaimType = &quot;role&quot;
+    };
+
+    options.Events = new OpenIdConnectEvents
+    {
+        OnTicketReceived = n =&gt;
+        {
+            var idSvc =
+                n.HttpContext.RequestServices.GetRequiredService&lt;MovieIdentityService&gt;();
+
+            var appClaims = 
+               idSvc.GetClaimsForUser(n.Principal.FindFirst(&quot;sub&quot;)?.Value);
+
+            n.Principal.Identities.First().AddClaims(appClaims);
+
+            return Task.CompletedTask;
+        }
+    };
+})
+</code></pre>
+<ul>
+<li>Run the application, re-login, and now all of the authorization should behave the same as it did before.</li>
+</ul>
+<h2>Part 3: Add Google authentication to the movie review application</h2>
+<p>In this part, we want to allow social logins to the movie review application, so we will add Google logins.</p>
+<ul>
+<li>Add the Google authentication handler after the OpenID Connect handler.</li>
+</ul>
+<pre><code>AddGoogle(&quot;Google&quot;, options =&gt;
+{
+    options.ClientId = &quot;998042782978-lrga3i7tf8g6eotqv3ltjhqd2bguhnf4.apps.googleusercontent.com&quot;;
+    options.ClientSecret = &quot;lAVx368q3GDXZS_dlrrntrDN&quot;;
+})
+</code></pre>
+<ul>
+<li>Re-run the movie review application and trigger a login.
+Did you see Google's login page?
+Probabaly not;
+that's because the Google handler is not being triggered because the <code>Login</code> action method is using <code>&quot;oidc&quot;</code> as the scheme.</li>
+<li>Fix this by changing <code>Login</code> to use the <code>&quot;Google&quot;</code> as the scheme.</li>
+</ul>
+<pre><code>[HttpGet]
+public IActionResult Login(string returnUrl)
+{
+    return Challenge(new AuthenticationProperties
+    {
+        RedirectUri = returnUrl ?? &quot;/&quot;
+    }, &quot;Google&quot;);
+}
+</code></pre>
+<ul>
+<li>Now run it again, and see if you can login with a Google account.</li>
+</ul>
+<p>So now that you have Google enabled you should have come to the realization that we have lost the ability to login with our OpenID Connect provider (IdentityServer).
+In the next lab we will solve this problem.</p>
+<hr />
+<p>Copyright © 2020 <a href="https://duendesoftware.com/">Duende Software</a>. All rights reserved.</p>
+
+
+</body></html>

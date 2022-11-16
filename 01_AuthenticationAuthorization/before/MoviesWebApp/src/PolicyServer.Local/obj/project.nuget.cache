@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/fWY6HCy9DpZ8YiE9wjluf5Do4FpGCFVLcO/7dEsUYkBEqBqXnIoD8NKDEcJsERFNZz1FBAg84GQ2a3LZhAbKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thanh\\Downloads\\labs\\labs\\01_AuthenticationAuthorization\\before\\MoviesWebApp\\src\\PolicyServer.Local\\PolicyServer.Local.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thanh\\.nuget\\packages\\microsoft.build.tasks.git\\1.0.0-beta2-19367-01\\microsoft.build.tasks.git.1.0.0-beta2-19367-01.nupkg.sha512",
+    "C:\\Users\\thanh\\.nuget\\packages\\microsoft.sourcelink.common\\1.0.0-beta2-19367-01\\microsoft.sourcelink.common.1.0.0-beta2-19367-01.nupkg.sha512",
+    "C:\\Users\\thanh\\.nuget\\packages\\microsoft.sourcelink.github\\1.0.0-beta2-19367-01\\microsoft.sourcelink.github.1.0.0-beta2-19367-01.nupkg.sha512"
+  ],
+  "logs": []
+}

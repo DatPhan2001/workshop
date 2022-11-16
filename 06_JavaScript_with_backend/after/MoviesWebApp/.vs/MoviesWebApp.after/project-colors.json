@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ff2c2f7b-6ee4-45de-9a7a-081acedb529f": {
+      "ProjectGuid": "ff2c2f7b-6ee4-45de-9a7a-081acedb529f",
+      "DisplayName": "MoviesWebApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

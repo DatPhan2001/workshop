@@ -1,0 +1,193 @@
+﻿
+<!DOCTYPE html>
+<html><head>
+<style>
+body {
+    width:900px;
+    margin:auto;
+    padding:10px;
+    padding-top:30px;
+    font-sie:14pt;  
+    line-height:140%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#444;
+}
+h1 {
+    padding-left:80px;
+    padding-top:30px;
+    min-height:70px;
+    line-height:120%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABUCAYAAAAoEtHdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVGSURBVHhe5ZzPbhNXFMav/yTmj4CqGxYgEVSJbVh3ExZ9AN4AqLoH9lSkah8g3VeQPAGwr0TZVF0mq0qVihpFzaIISAi2Gdsz7vlmzgzX8YztmXtsz73zkyYzd1CQ/eW73z3nxpnacDhUVeS7jadf0OkuH+u4p/GCjue/vLq3HQ0/U0nBSKzbdIIYl8Ib2byi4y4J9080rKBgJBYc9TQazcQxHbdItF0M6vhSFUism3TKIxaAC5OpWSnBiC0+52WdnVkdwfgNb0SjQmziSyUyjMTCiojgnhby07heFYfBHaZigTXnBeOgvx+NzKmCw4oGfSpOCyYQ9KfZdVYwDnpJd72g4vXIZYdJBX1MKL6TZQW56xadXkYjEeAu9J/OZpjkVEQv+SC6dFAwchfe3OntGhO2nN2t4KCXqOhj9kmsNb4Occ1hmIqSQR823DrOOGyeQa/jksPmFvQ6Tgg276DXsX5KziHo90gsNOypuOAw6aBPnYoxVgvGQX8nGomwQ+76ja9Tsd1hCwl6HWsFm0PQb5K7jvg6EytDf9FBr2OrwxYa9DrWCbaMoNex0WELD3odqwRbVtDrWBP6ywx6HZsctrSg10l12E/f/o59IITryObZsuh5/tVeN/hKqaGKXu7oax74fdXrdZTnnaggGPDdiSDox/a6ZmFEMBIK+z/4SV4Lb5SE9rGvAn+26PC8D6rdfUvCBnxnDAT9Wt7sikmmJIkFoZ7RUSqxep+CmcUCrdZFdenCFVWrZaZN7qDXCR3GUzDvB83mThAMVYfcVWRdGvg9dfzhgEcJhYJep05iIackaxsxKLcKiQWajVV17uyXPEooFPQ68C3+E8nVRwS4q+8VVIs50xp5W7kq+iwg2NhGfxnw+2ZiAeTY6sp5XOau6LOAYKUK+ZjA5wtDms0WTkZBr5O5lCwbf2DuMND1um0SSyyjSytYvcEXhvT63uo3N75HWyUCBMP8Lh21eo2vzPjU66zQSSS/AAQzXjnmwcqqjGAn7fc4PSaXibR5EKyUNVi9UVONpplob48OaUp2eRR9zt6U+qMnX8Nh+Out0tE6WzxifWrCD9+85lHIHXIZNhSMiF8RWqO96LI8NFZqqllwav59sKu7K8bYZaFg5DLUKFC/dE5rncvnsv7AU3++/iPOrtNskMuMCvWx/TDqLSEcVhWcS9EyeZ0g3LWYxMD31H/vDsLD9yfuie3/+tePhReAqVvULOBSabc7l/893N+m13qGb4VQjaVOPh6nTb1pPCTRCi12UwUrCzSVkD+Po5Ex4SYiiZa7XSq+DC0eOGI/ujQGUVOomLXGYYBcJr3ReZ1clvrBuSxscpiiN4c/JZYsf3KXGVYJxoj1hQSK2Vxb1tYJRi5DZ4LHI0iRa7W00WGg0O8UM0AxO3PpZKVgHNQ70UiEsSegZGGrwwCyTGov7xqvwFOxVjAuOiW3prZItKk7szY7DCy8mLVaMHaZyMYg84BcNrExt91hcTEr6bKJPwDrBWMky4yJxawTgi2ymHXFYUCyZcosZp0RjFyGB6JJFrOpLnPJYQCBLVXMrqcVs04JRi5DyyRZzG6eLmZdcxiAYGItEx0j2eicYFzMSi4AKGYTl7nosHkUs0mWOSkYI1nMJr/8dVYw4WI2eQaZyw4Dko15iNOCscski1nnHQYkXJZMbecF42L2h2hUGDg1pAoOAybFLL6vWs+i5mK2aJmxyS4NqYrDINpzOv0cjWZmh75vpDetjGCA3jxapnt0TJue+Hd8hmzMlVZ9ekcK7g0hBip4/cG4WA0R8Nv6NPyMUv8Db173no+B3RYAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+}
+pre {
+    padding:12px;
+    background-color:#eee;
+}
+code {
+    font-size:1.3em;
+    color:rgb(200, 0, 0);
+    padding:2px;
+    line-height:normal;
+}
+
+</style>
+</head><body>
+<h1>Federation Gateway</h1>
+<hr />
+<p>This lab is based on a simple movie review website.
+It allows customers to browse and search movies and view movie reviews.
+It also allows reviewers to create and edit movie reviews.</p>
+<h2>Overview</h2>
+<p>In this lab you will consolidate all external authentication into a single authentication gateway.
+Duende IdentityServer will act as this gateway.
+You will also implement single sign-out which allows the user to sign-out of both the movie web app, and IdentityServer.</p>
+<p><strong>Lab Note</strong>: For this lab you will need to keep two solutions open: one for IdentityServer and another for the movie review client application.
+IdentityServer will need to be running for the client application to authenticate users.</p>
+<h2>Part 1: Move Google authentication from the movie web app to IdentityServer</h2>
+<p>In this part, you will remove Google authentication from the movie review web app and add it into IdentityServer.</p>
+<p>First, remove Google from the movie review app.</p>
+<ul>
+<li>Open the &quot;MovieWebApp&quot; project from <code>~/before</code>.</li>
+<li>Open <code>~/Startup.cs</code> and find the <code>ConfigureServices</code> method.</li>
+<li>Remove the call to <code>AddGoogle</code>.</li>
+<li>Open <code>~/Controllers/Account.cs</code> and in <code>Login</code> change the scheme used for the challenge from <code>&quot;Google&quot;</code> to <code>&quot;oidc&quot;</code>.</li>
+</ul>
+<p>Next, add Google to IdentityServer.</p>
+<ul>
+<li>Open the &quot;IdentityServerHost&quot; project from <code>~/before</code>.</li>
+<li>Open <code>~/HostingExtensions.cs</code> and find the <code>ConfigureServices</code> method.</li>
+<li>Add the Google authentication handler.
+<ul>
+<li>Use the <code>AddAuthentication</code> API after the call to <code>AddIdentityServer</code>.</li>
+<li>Use the <code>AddGoogle</code> fluent API on the return from <code>AddAuthentication</code>.</li>
+<li>Use <code>IdentityServerConstants.ExternalCookieAuthenticationScheme</code> for the <code>&quot;SignInScheme&quot;</code>.
+This is the cookie handler that IdentityServer automaitcally registers for external identity provider logins.</li>
+<li>Note that the <code>ClientId</code> and <code>ClientSecret</code> are different than the movie review app since it's hosted at a different URL.</li>
+</ul>
+</li>
+</ul>
+<pre><code>builder.Services.AddAuthentication()
+    .AddGoogle(&quot;Google&quot;, options =&gt;
+    {
+        options.ClientId = &quot;998042782978-s07498t8i8jas7npj4crve1skpromf37.apps.googleusercontent.com&quot;;
+        options.ClientSecret = &quot;HsnwJri_53zn7VcO1Fm7THBb&quot;;
+        options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+    });
+</code></pre>
+<ul>
+<li>Re-run IdentityServer and the movie review app.</li>
+<li>Trigger a login to the movie review application and you should now be able to use a Google account.</li>
+</ul>
+<p>If you're interested in how the users from Google are handled, feel free to inspect the pages in the <code>~/Pages/ExternalLogin</code> directory in the IdentityServer project.</p>
+<h2>Part 2: Single sign-out</h2>
+<p>In this part you will implement single sign-out.
+This will involve the movie web application making a request to IdentityServer when the user triggers logout.</p>
+<p>The first step is to trigger an OpenID Connect sign-out in the movie web app when the user logs out.</p>
+<ul>
+<li>Back in the &quot;MovieWebApp&quot;, open <code>~/Controllers/AccountController.cs</code>.</li>
+<li>Locate the <code>Logout</code> method.</li>
+</ul>
+<p>Notice how <code>Logout</code> is only triggering sign-out with <code>&quot;Cookies&quot;</code>.
+We need to change it to also trigger <code>&quot;oidc&quot;</code>, which is the scheme of the OpenID Connect handler.</p>
+<p>Also notice because sign-out is only local the <code>Logout</code> method is redirecting back to the home page.
+This will not be the workflow anymore, as we will be redirecting to IdentityServer for sign-out.</p>
+<ul>
+<li>Replace the entire <code>Logout</code> method with a simpler one that returns <code>SignOut</code> passing <code>&quot;Cookies&quot;, &quot;oidc&quot;</code>.</li>
+</ul>
+<pre><code>public IActionResult Logout()
+{
+    return SignOut(&quot;Cookies&quot;, &quot;oidc&quot;);
+}
+</code></pre>
+<p>This <code>SignOutResult</code> has the side-effect of triggering the redirect to IdentityServer for sign-out, so we no longer need to try to control the redirect.</p>
+<ul>
+<li>Run the application, login, and then logout.
+You should be redirected back to IdentityServer for sign-out.</li>
+</ul>
+<p>One problem with no longer controlling the redirect is that once a user has signed-out at IdentityServer, they have no easy way to return back to the movie web app.
+We will fix this by passing a &quot;post logout redirect uri&quot; to IdentityServer as part of the sign-out process.
+If properly configured, IdentityServer will no longer prompt the user to sign-out, and will provide the user a link to return back to the movie web app after they have signed out.</p>
+<p>To achieve this, we need to configure the post logout redirect uri for the movie web app in IdentityServer.</p>
+<ul>
+<li>In the &quot;IdentityServer&quot; project open <code>~/Config.cs</code>.</li>
+<li>Locate the <code>Client</code> configuration for <code>&quot;movie_client&quot;</code>.</li>
+<li>Add a new <code>PostLogoutRedirectUris</code> property to the <code>Client</code>.
+<ul>
+<li>Add the value <code>&quot;https://localhost:5005/signout-callback-oidc&quot;</code> to the list.</li>
+</ul>
+</li>
+</ul>
+<pre><code>new Client
+{
+    ClientId = &quot;movie_client&quot;,
+    
+    // other settings ...
+
+    PostLogoutRedirectUris = 
+    {
+        &quot;https://localhost:5005/signout-callback-oidc&quot;
+    },
+
+    // other settings ...
+}
+</code></pre>
+<p>Next, we need to configure the movie web app to request a redirect back to the movie web app after the user has signed out.</p>
+<ul>
+<li>In the &quot;MovieWebApp&quot; project open <code>~/Controllers/AccountController.cs</code>.</li>
+<li>Locate the <code>Logout</code> method.</li>
+<li>Change the call to <code>SignOut</code> and pass a <code>AuthenticationProperties</code> as the first parameter.
+<ul>
+<li>Set the <code>RedirectUri</code> property to <code>&quot;/&quot;</code>.</li>
+</ul>
+</li>
+</ul>
+<pre><code>public IActionResult Logout()
+{
+    return SignOut(new AuthenticationProperties
+    {
+        RedirectUri = &quot;/&quot;
+    }, &quot;Cookies&quot;, &quot;oidc&quot;);
+}
+</code></pre>
+<p>Finally, as part of the sign-out protocol we are expected to pass the original <code>id_token</code> to IdentityServer.
+As of now, we are not keeping track of the <code>id_token</code>.
+You can confirm this by looking at the list of claims on the home page of the movie web app.
+The <code>id_token</code> is shown in the list, but the value should be empty.
+We need to keep track of the <code>id_token</code> and the OpenID Connect handler will do this for us.</p>
+<ul>
+<li>Open <code>~/Startup.cs</code>.</li>
+<li>Locate the call to <code>AddOpenIdConnect</code> in the <code>ConfigureServices</code> method.</li>
+<li>On the <code>OpenIdConnectOptions</code> set the <code>SaveTokens</code> property to <code>true</code>.</li>
+</ul>
+<pre><code>.AddOpenIdConnect(&quot;oidc&quot;, options =&gt;
+{
+    options.Authority = &quot;https://localhost:5001/&quot;;
+
+    // other properties...
+
+    options.SaveTokens = true;
+
+    // other properties...
+})
+</code></pre>
+<ul>
+<li>Re-run IdentityServer and the movie review app.</li>
+<li>Login to the movie web app, and then logout.
+You should no longer be prompted for signing out, and you should see a link back to the movie review app on the &quot;logged out&quot; page.</li>
+</ul>
+<h2>Part 3: [Challenge] Bypass home realm discovery (HRD)</h2>
+<p>Sometimes displaying the &quot;home realm discovery&quot; (HRD) page is not desirable.
+IdentityServer supports passing a custom <code>acr_values</code> protocol parameter in the form of <code>&quot;idp:Google&quot;</code>.
+This value would be passed from the client to IdentityServer when triggering authorization.
+See if you can customize the OpenID Connect handler in the movie web app to pass this custom <code>acr_values</code> parameter to skip the login page and redirect the user directly to Google.
+<em>Hint</em>: Look into the <code>Events</code> property on the <code>OpenIdConnectOptions</code>.</p>
+<h2>Part 4: [Challenge] Build custom registration page for external users in IdentityServer</h2>
+<p>Now that we have Google logins in IdentityServer, any Google user can access the movies application.
+Inspect the code in IdentityServer and think about how you would design a registration process for users, or even how would you design a mechanism for existing users to associate a Google login with their local accounts.</p>
+<hr />
+<p>Copyright © 2020 <a href="https://duendesoftware.com/">Duende Software</a>. All rights reserved.</p>
+
+
+</body></html>

@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PolicyServer.Local</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions">
+            <summary>
+            PolicyServer extensions for IApplicationBuilder
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UsePolicyServerClaims(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Add the policy server claims transformation middleware to the pipeline.
+            This middleware will turn application roles and permissions into claims and add them to the current user
+            </summary>
+            <param name="app">The application.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions">
+            <summary>
+            Helper class to configure DI
+            </summary>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddPolicyServerClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds the policy server client.
+            </summary>
+            <param name="services">The services.</param>
+            <param name="configuration">The configuration.</param>
+            <returns></returns>
+        </member>
+        <member name="T:PolicyServer.Runtime.Client.AspNetCore.AuthorizationPolicyProvider">
+            <summary>
+            Authorization policy provider to automatically turn all permissions of a user into a ASP.NET Core authorization policy
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Authorization.DefaultAuthorizationPolicyProvider" />
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.AspNetCore.AuthorizationPolicyProvider.#ctor(Microsoft.Extensions.Options.IOptions{Microsoft.AspNetCore.Authorization.AuthorizationOptions})">
+            <summary>
+            Initializes a new instance of the <see cref="T:PolicyServer.Runtime.Client.AspNetCore.AuthorizationPolicyProvider"/> class.
+            </summary>
+            <param name="options">The options.</param>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.AspNetCore.AuthorizationPolicyProvider.GetPolicyAsync(System.String)">
+            <summary>
+            Gets a <see cref="T:Microsoft.AspNetCore.Authorization.AuthorizationPolicy" /> from the given <paramref name="policyName" />
+            </summary>
+            <param name="policyName">The policy name to retrieve.</param>
+            <returns>
+            The named <see cref="T:Microsoft.AspNetCore.Authorization.AuthorizationPolicy" />.
+            </returns>
+        </member>
+        <member name="T:PolicyServer.Runtime.Client.AspNetCore.PolicyServerClaimsMiddleware">
+            <summary>
+            Middleware to automatically turn application roles and permissions into claims
+            </summary>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.AspNetCore.PolicyServerClaimsMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PolicyServer.Runtime.Client.AspNetCore.PolicyServerClaimsMiddleware"/> class.
+            </summary>
+            <param name="next">The next.</param>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.AspNetCore.PolicyServerClaimsMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext,PolicyServer.Runtime.Client.IPolicyServerRuntimeClient)">
+            <summary>
+            Invoke
+            </summary>
+            <param name="context">The context.</param>
+            <param name="client">The client.</param>
+            <returns></returns>
+        </member>
+        <member name="T:PolicyServer.Runtime.Client.PolicyServerBuilder">
+            <summary>
+            Helper object to build the PolicyServer DI configuration
+            </summary>
+        </member>
+        <member name="P:PolicyServer.Runtime.Client.PolicyServerBuilder.Services">
+            <summary>
+            Gets the services.
+            </summary>
+            <value>
+            The services.
+            </value>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.PolicyServerBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PolicyServer.Runtime.Client.PolicyServerBuilder"/> class.
+            </summary>
+            <param name="services">The services.</param>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.PolicyServerBuilder.AddAuthorizationPermissionPolicies">
+            <summary>
+            Adds the authorization policy provider to automatically map permissions to ASP.NET Core authorization policies.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PolicyServer.Runtime.Client.IPolicyServerRuntimeClient">
+            <summary>
+            Interface for PolicyServer client
+            </summary>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.IPolicyServerRuntimeClient.EvaluateAsync(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Evaluates the policy for a given user.
+            </summary>
+            <param name="user">The user.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.IPolicyServerRuntimeClient.HasPermissionAsync(System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>
+            Determines whether the user has a permission.
+            </summary>
+            <param name="user">The user.</param>
+            <param name="permission">The permission.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.IPolicyServerRuntimeClient.IsInRoleAsync(System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>
+            Determines whether the user is in a role.
+            </summary>
+            <param name="user">The user.</param>
+            <param name="role">The role.</param>
+            <returns></returns>
+        </member>
+        <member name="T:PolicyServer.Runtime.Client.PolicyResult">
+            <summary>
+            The result of a policy evaluation
+            </summary>
+        </member>
+        <member name="P:PolicyServer.Runtime.Client.PolicyResult.Roles">
+            <summary>
+            Gets the roles.
+            </summary>
+            <value>
+            The roles.
+            </value>
+        </member>
+        <member name="P:PolicyServer.Runtime.Client.PolicyResult.Permissions">
+            <summary>
+            Gets the permissions.
+            </summary>
+            <value>
+            The permissions.
+            </value>
+        </member>
+        <member name="T:PolicyServer.Runtime.Client.PolicyServerRuntimeClient">
+            <summary>
+            PolicyServer client
+            </summary>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.PolicyServerRuntimeClient.#ctor(PolicyServer.Local.Policy)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PolicyServer.Runtime.Client.PolicyServerRuntimeClient"/> class.
+            </summary>
+            <param name="policy">The policy.</param>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.PolicyServerRuntimeClient.IsInRoleAsync(System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>
+            Determines whether the user is in a role.
+            </summary>
+            <param name="user">The user.</param>
+            <param name="role">The role.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.PolicyServerRuntimeClient.HasPermissionAsync(System.Security.Claims.ClaimsPrincipal,System.String)">
+            <summary>
+            Determines whether the user has a permission.
+            </summary>
+            <param name="user">The user.</param>
+            <param name="permission">The permission.</param>
+            <returns></returns>
+        </member>
+        <member name="M:PolicyServer.Runtime.Client.PolicyServerRuntimeClient.EvaluateAsync(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Evaluates the policy for a given user.
+            </summary>
+            <param name="user">The user.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">user</exception>
+        </member>
+        <member name="T:PolicyServer.Local.Permission">
+            <summary>
+            Models a permission
+            </summary>
+        </member>
+        <member name="P:PolicyServer.Local.Permission.Name">
+            <summary>
+            Gets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:PolicyServer.Local.Permission.Roles">
+            <summary>
+            Gets the roles.
+            </summary>
+            <value>
+            The roles.
+            </value>
+        </member>
+        <member name="T:PolicyServer.Local.Policy">
+            <summary>
+            Models a policy
+            </summary>
+        </member>
+        <member name="P:PolicyServer.Local.Policy.Roles">
+            <summary>
+            Gets the roles.
+            </summary>
+            <value>
+            The roles.
+            </value>
+        </member>
+        <member name="P:PolicyServer.Local.Policy.Permissions">
+            <summary>
+            Gets the permissions.
+            </summary>
+            <value>
+            The permissions.
+            </value>
+        </member>
+        <member name="T:PolicyServer.Local.Role">
+            <summary>
+            Models an application role
+            </summary>
+        </member>
+        <member name="P:PolicyServer.Local.Role.Name">
+            <summary>
+            Gets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:PolicyServer.Local.Role.Subjects">
+            <summary>
+            Gets the subjects.
+            </summary>
+            <value>
+            The subjects.
+            </value>
+        </member>
+        <member name="P:PolicyServer.Local.Role.IdentityRoles">
+            <summary>
+            Gets the identity roles.
+            </summary>
+            <value>
+            The identity roles.
+            </value>
+        </member>
+    </members>
+</doc>

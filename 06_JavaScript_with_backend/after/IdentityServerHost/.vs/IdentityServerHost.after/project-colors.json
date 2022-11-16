@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "784b3c88-30fa-415d-b99e-584063064508": {
+      "ProjectGuid": "784b3c88-30fa-415d-b99e-584063064508",
+      "DisplayName": "IdentityServer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

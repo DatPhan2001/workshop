@@ -1,0 +1,12 @@
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\bin\Debug\net6.0\MoviesLibrary.deps.json
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\bin\Debug\net6.0\MoviesLibrary.dll
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\bin\Debug\net6.0\MoviesLibrary.pdb
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\MoviesLibrary.csproj.AssemblyReference.cache
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\MoviesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\MoviesLibrary.AssemblyInfoInputs.cache
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\MoviesLibrary.AssemblyInfo.cs
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\MoviesLibrary.csproj.CoreCompileInputs.cache
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\MoviesLibrary.dll
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\refint\MoviesLibrary.dll
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\MoviesLibrary.pdb
+C:\Users\thanh\Downloads\labs\labs\02_ExternalAuthentication\after\MoviesWebApp\src\MoviesLibrary\obj\Debug\net6.0\ref\MoviesLibrary.dll

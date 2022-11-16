@@ -1,0 +1,17 @@
+2021-11-23 14:20:21.809 -05:00 [INF] Starting host...
+2021-11-23 14:20:22.306 -05:00 [INF] Starting Duende IdentityServer version 6.0.0-preview.3+952858d249be47c4075bf71df20bb866bbde65b7 (.NET 6.0.0-rtm.21522.10)
+2021-11-23 14:20:22.432 -05:00 [WRN] You do not have a valid license key for Duende IdentityServer. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2021-11-23 14:20:22.434 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2021-11-23 14:20:22.437 -05:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2021-11-23 14:20:22.438 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2021-11-23 14:20:22.438 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2021-11-23 14:20:22.438 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2021-11-23 14:20:22.438 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2021-11-23 14:20:22.439 -05:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2021-11-23 14:20:23.101 -05:00 [DBG] Login Url: /Account/Login
+2021-11-23 14:20:23.103 -05:00 [DBG] Login Return Url Parameter: ReturnUrl
+2021-11-23 14:20:23.103 -05:00 [DBG] Logout Url: /Account/Logout
+2021-11-23 14:20:23.103 -05:00 [DBG] ConsentUrl Url: /consent
+2021-11-23 14:20:23.104 -05:00 [DBG] Consent Return Url Parameter: returnUrl
+2021-11-23 14:20:23.104 -05:00 [DBG] Error Url: /home/error
+2021-11-23 14:20:23.104 -05:00 [DBG] Error Id Parameter: errorId

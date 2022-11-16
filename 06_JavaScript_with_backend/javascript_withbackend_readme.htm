@@ -1,0 +1,395 @@
+﻿
+<!DOCTYPE html>
+<html><head>
+<style>
+body {
+    width:900px;
+    margin:auto;
+    padding:10px;
+    padding-top:30px;
+    font-sie:14pt;  
+    line-height:140%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#444;
+}
+h1 {
+    padding-left:80px;
+    padding-top:30px;
+    min-height:70px;
+    line-height:120%;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABUCAYAAAAoEtHdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVGSURBVHhe5ZzPbhNXFMav/yTmj4CqGxYgEVSJbVh3ExZ9AN4AqLoH9lSkah8g3VeQPAGwr0TZVF0mq0qVihpFzaIISAi2Gdsz7vlmzgzX8YztmXtsz73zkyYzd1CQ/eW73z3nxpnacDhUVeS7jadf0OkuH+u4p/GCjue/vLq3HQ0/U0nBSKzbdIIYl8Ib2byi4y4J9080rKBgJBYc9TQazcQxHbdItF0M6vhSFUism3TKIxaAC5OpWSnBiC0+52WdnVkdwfgNb0SjQmziSyUyjMTCiojgnhby07heFYfBHaZigTXnBeOgvx+NzKmCw4oGfSpOCyYQ9KfZdVYwDnpJd72g4vXIZYdJBX1MKL6TZQW56xadXkYjEeAu9J/OZpjkVEQv+SC6dFAwchfe3OntGhO2nN2t4KCXqOhj9kmsNb4Occ1hmIqSQR823DrOOGyeQa/jksPmFvQ6Tgg276DXsX5KziHo90gsNOypuOAw6aBPnYoxVgvGQX8nGomwQ+76ja9Tsd1hCwl6HWsFm0PQb5K7jvg6EytDf9FBr2OrwxYa9DrWCbaMoNex0WELD3odqwRbVtDrWBP6ywx6HZsctrSg10l12E/f/o59IITryObZsuh5/tVeN/hKqaGKXu7oax74fdXrdZTnnaggGPDdiSDox/a6ZmFEMBIK+z/4SV4Lb5SE9rGvAn+26PC8D6rdfUvCBnxnDAT9Wt7sikmmJIkFoZ7RUSqxep+CmcUCrdZFdenCFVWrZaZN7qDXCR3GUzDvB83mThAMVYfcVWRdGvg9dfzhgEcJhYJep05iIackaxsxKLcKiQWajVV17uyXPEooFPQ68C3+E8nVRwS4q+8VVIs50xp5W7kq+iwg2NhGfxnw+2ZiAeTY6sp5XOau6LOAYKUK+ZjA5wtDms0WTkZBr5O5lCwbf2DuMND1um0SSyyjSytYvcEXhvT63uo3N75HWyUCBMP8Lh21eo2vzPjU66zQSSS/AAQzXjnmwcqqjGAn7fc4PSaXibR5EKyUNVi9UVONpplob48OaUp2eRR9zt6U+qMnX8Nh+Out0tE6WzxifWrCD9+85lHIHXIZNhSMiF8RWqO96LI8NFZqqllwav59sKu7K8bYZaFg5DLUKFC/dE5rncvnsv7AU3++/iPOrtNskMuMCvWx/TDqLSEcVhWcS9EyeZ0g3LWYxMD31H/vDsLD9yfuie3/+tePhReAqVvULOBSabc7l/893N+m13qGb4VQjaVOPh6nTb1pPCTRCi12UwUrCzSVkD+Po5Ex4SYiiZa7XSq+DC0eOGI/ujQGUVOomLXGYYBcJr3ReZ1clvrBuSxscpiiN4c/JZYsf3KXGVYJxoj1hQSK2Vxb1tYJRi5DZ4LHI0iRa7W00WGg0O8UM0AxO3PpZKVgHNQ70UiEsSegZGGrwwCyTGov7xqvwFOxVjAuOiW3prZItKk7szY7DCy8mLVaMHaZyMYg84BcNrExt91hcTEr6bKJPwDrBWMky4yJxawTgi2ymHXFYUCyZcosZp0RjFyGB6JJFrOpLnPJYQCBLVXMrqcVs04JRi5DyyRZzG6eLmZdcxiAYGItEx0j2eicYFzMSi4AKGYTl7nosHkUs0mWOSkYI1nMJr/8dVYw4WI2eQaZyw4Dko15iNOCscski1nnHQYkXJZMbecF42L2h2hUGDg1pAoOAybFLL6vWs+i5mK2aJmxyS4NqYrDINpzOv0cjWZmh75vpDetjGCA3jxapnt0TJue+Hd8hmzMlVZ9ekcK7g0hBip4/cG4WA0R8Nv6NPyMUv8Db173no+B3RYAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+}
+pre {
+    padding:12px;
+    background-color:#eee;
+}
+code {
+    font-size:1.3em;
+    color:rgb(200, 0, 0);
+    padding:2px;
+    line-height:normal;
+}
+
+</style>
+</head><body>
+<h1>JavaScript client applications with a backend</h1>
+<hr />
+<p>This lab is based on a simple movie review website.
+It allows customers to browse movies.</p>
+<h2>Overview</h2>
+<p>In this lab the movie review application has been rewritten as a JavaScript-based application with a backend.
+Given that there is a backend to the SPA, the server-side code will be used to initiate and consume OpenID Connect requests and results (using the BFF pattern and the Duende.BFF framework).
+It won't have as much functionality as the previous labs, but it will suffice to show how to manage a session and call a web API using the &quot;Backend For Frontend&quot; pattern.</p>
+<p><strong>Lab Note</strong>: For this lab you will need to keep three solutions open: one for IdentityServer, one for the movie review web API, and another for the movie review client application.</p>
+<h2>Part 1: Logging a user in and out via the BFF pattern</h2>
+<p>In this part you will examine the structure of the JavaScript-based application.
+You will then modify it (with the help of the Duende.BFF framework) to perform an OpenID Connect login and manage a session.</p>
+<ul>
+<li>Open the &quot;MoviesWebApp&quot; solution from <code>~/before</code>.</li>
+<li>Run the application to see that the home page looks essentially the same as it did in the prior labs.
+<ul>
+<li>Open <code>~/Startup.cs</code> and notice how it resembles a normal server-side configuration with the cookie and OIDC authentication handlers.</li>
+<li>Also notice, though, how the project has no server-side UI code (neither Razor pages nor MVC controllers).</li>
+</ul>
+</li>
+<li>Expand the <code>~/wwwroot</code> folder and notice the <code>.html</code> files. These are the files that now make up the UI for this application.
+<ul>
+<li>
+<p>Open <code>~/wwwroot/index.html</code> to examine the structure. Notice it includes a JavaScript file <code>site.js</code> which contains the application-specific UI code.</p>
+</li>
+<li>
+<p>Open <code>~/wwwroot/js/site.js</code> to examine the application code.
+This file contains the logic to dynamically build the UI based on the state of the logged in user and the user's activity.</p>
+<p>Notice at the top of the file the declaration of the <code>userClaims</code> variable and the associated comment.
+The <code>userClaims</code> variable is used as a global flag to detect if the user is logged in or not.
+If it is assigned then it contains the user's claims.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>The first thing we will add is code to enable the BFF management endpoints.</p>
+<ul>
+<li>In <code>~/Startup.cs</code> in <code>ConfigureServices</code>:
+<ul>
+<li>Add the BFF services to DI with <code>AddBff()</code>.</li>
+<li>The BFF management infrastructure assumes the ASP.NET Core authentication system's <em>Challenge</em> and <em>SignOut</em> schemes to be configured for the OpenID Connect handler. Configure these now in the call to <code>AddAuthentication</code>:</li>
+</ul>
+</li>
+</ul>
+<pre><code>public void ConfigureServices(IServiceCollection services)
+{
+    services.AddBff();
+
+    services.AddAuthentication(options=&gt; {
+        options.DefaultScheme = &quot;Cookies&quot;;
+        options.DefaultChallengeScheme = &quot;oidc&quot;;
+        options.DefaultSignOutScheme = &quot;oidc&quot;;
+    })
+        .AddCookie(&quot;Cookies&quot;)
+        .AddOpenIdConnect(&quot;oidc&quot;, ...
+
+        /// rest omitted
+}
+</code></pre>
+<ul>
+<li>In <code>~/Startup.cs</code> in <code>Configure</code>:
+<ul>
+<li>Add the BFF middleware before the authorization middleware with <code>UseBff()</code>.</li>
+<li>In <code>UseEndpoints</code> add the BFF management endpoints with a call to <code>MapBffManagementEndpoints()</code>.</li>
+</ul>
+</li>
+</ul>
+<pre><code>public void Configure(IApplicationBuilder app)
+{
+    app.UseDefaultFiles();
+    app.UseStaticFiles();
+
+    app.UseRouting();
+    app.UseAuthentication();
+    
+    app.UseBff();
+
+    app.UseAuthorization();
+
+    app.UseEndpoints(endpoints =&gt;
+    {
+        // login, logout, user, backchannel logout...
+        endpoints.MapBffManagementEndpoints();
+
+        // local APIs
+        endpoints.MapControllers()
+            .RequireAuthorization();
+    });
+}
+</code></pre>
+<p>The BFF management endpoints should now be configured to handle triggering login, logout, and querying the user's status.</p>
+<p>The next thing we will add is code to the client-side to query the user's session status.</p>
+<ul>
+<li>Open <code>~/wwwroot/js/site.js</code> and find the <code>showLoginStatus</code> function.</li>
+<li>In the function will will invoke the &quot;user&quot; BFF endpoint.
+<ul>
+<li>Use <code>fetch</code> to make a <em>GET</em> request to the '/bff/user' endpoint. Be sure to set the <code>X-CSRF</code> request header to the constant <code>1</code> to help protect against cross-site request forgery.</li>
+<li>If the result is a 401 then call <code>showAnonymousUser()</code>.</li>
+<li>If the result is a 200 then call <code>showLoggedInUser()</code> and parse the response body JSON and assign the result to the <code>userClaims</code> variable.</li>
+</ul>
+</li>
+</ul>
+<pre><code>async function showLoginStatus() {
+
+    const req = new Request(&quot;/bff/user&quot;, {
+        headers: new Headers({
+            'X-CSRF': '1'
+        })
+    })
+
+    try {
+        const resp = await fetch(req);
+        if (resp.ok) {
+            userClaims = await resp.json();
+            showLoggedInUser();
+        }
+        else if (resp.status === 401) {
+            showAnonymousUser();
+        }
+    }
+    catch (e) {
+        console.log(&quot;error checking user status&quot;);
+    }
+}
+</code></pre>
+<ul>
+<li>
+<p>Open and run the IdentityServer project.</p>
+</li>
+<li>
+<p>Run the movie review web app.
+You should now see that the application indicates that the user is not logged in by showing the text &quot;Not logged in&quot; in the top right menu.</p>
+<p>You can confirm this is working properly by also using the developer tools in your browser to monitor the network traffic and see the &quot;user&quot; endpoint being called and returning a 401 status code.</p>
+</li>
+</ul>
+<p>Next, configure the application to trigger login using the BFF &quot;login&quot; endpoint.</p>
+<ul>
+<li>Find the <code>toggleLogin</code> function.</li>
+<li>In this method navigate the browser to the &quot;/bff/login&quot; endpoint.</li>
+</ul>
+<pre><code>function toggleLogin() {
+   window.location = &quot;/bff/login&quot;;
+}
+</code></pre>
+<ul>
+<li>You should now be able to run the app and try to login.
+You should now see some claims for the user on the home page.</li>
+</ul>
+<p>You might notice that that the menu does say &quot;Logged in as&quot; but is missing the user's name. We need to update the code to locate the name claim and have its value displayed correctly.</p>
+<ul>
+<li>
+<p>Locate the <code>showLoggedInUser</code> function.</p>
+<p>The <code>userClaims</code> collection contains an array of objects that represent the user's claims. These objects have <code>type</code> and <code>value</code> properties.</p>
+</li>
+<li>
+<p>Update the code to find the object in the <code>userClaims</code> collection whose <code>type</code> is &quot;name&quot;.</p>
+</li>
+<li>
+<p>Once located, read its <code>value</code> property and assign to the local <code>name</code> variable to have it displayed into the menu.</p>
+</li>
+</ul>
+<pre><code>function showLoggedInUser() {
+    const name = userClaims.find(claim =&gt; claim.type === 'name').value;
+    login_status.text(&quot;Logged in as: &quot; + name);
+    login_button.text(&quot;Logout&quot;);
+}
+</code></pre>
+<p>Login again (or reload the page) to confirm it's working.</p>
+<p>Next we want to support logout.</p>
+<ul>
+<li>Locate the <code>toggleLogin</code> function.</li>
+</ul>
+<p>This function is called for both login and logout.
+We modified it earlier to just handle login, so we'll modify this to now perform the correction action based on the user's status.</p>
+<ul>
+<li>
+<p>Use the <code>userClaims</code> to detect of the user is already logged in or not.</p>
+</li>
+<li>
+<p>If the user is not logged in, then keep the code that redirects to &quot;/bff/login&quot;.</p>
+</li>
+<li>
+<p>If the user is logged in, we need to redirect to the BFF &quot;logout&quot; endpoint. Given that this is a well-known endpoint, we don't want to allow XSRF attacks against it, so the &quot;logout&quot; endpoint expects an anti-XSRF token. The logout URL with this token is provided in the user's claims.</p>
+<p>Find the claim of <code>type</code> &quot;bff:logout_url&quot; and use its <code>value</code> to redirect the browser so the user can logout.</p>
+</li>
+</ul>
+<pre><code>function toggleLogin() {
+    if (userClaims) {
+        const logoutUrlClaim = userClaims.find(claim =&gt; claim.type === 'bff:logout_url');
+        window.location = logoutUrlClaim.value;
+    }
+    else {
+        window.location = &quot;/bff/login&quot;;
+    }
+}
+</code></pre>
+<p>Run the app and test logging in and out.</p>
+<p>In the next two parts you will call the web API with the user's access token via the BFF pattern. In the first part we will invoke a local API, and in the second part we will invoke a remote API using the BFF proxy feature.</p>
+<h2>Part 2: Invoke a local API</h2>
+<ul>
+<li>In the movie web app, open <code>~/MoviesController.cs</code> and inspect the code.</li>
+</ul>
+<p>This code represents a local API that the client-side JavaScript can invoke.
+It could access a database or perform other operations, but it just happens to invoke a remote API to get the movie data.</p>
+<p>When invoking the remote API, we need to send the user's access token to secure the call.
+This access token is part of the user's session, and is available when the front-end makes a call to the local API.
+You will modify the code now to obtain the access token and pass it to the remote API.</p>
+<ul>
+<li>In the <code>GetMovies</code> method, obtain the user's access token via a call to <code>GetUserAccessTokenAsync()</code> extension method on the <code>HttpContext</code>.</li>
+<li>Set this access token as the <code>Authorization</code> on the <code>HttpClient</code>. Use the &quot;Bearer&quot; scheme.</li>
+</ul>
+<pre><code>[HttpGet(&quot;/api/movies&quot;)]
+public async Task&lt;IActionResult&gt; GetMovies(int page)
+{
+    var token = await HttpContext.GetUserAccessTokenAsync();
+
+    var request = new HttpRequestMessage(HttpMethod.Get, 
+        &quot;https://localhost:5009/movies?page=&quot; + page);
+    request.Headers.Authorization = new AuthenticationHeaderValue(&quot;Bearer&quot;, token);
+    var response = await _client.SendAsync(request);
+
+    var data = await response.Content.ReadAsStringAsync();
+
+    return new ContentResult()
+    {
+        Content = data,
+        ContentType = &quot;application/json&quot;
+    };
+}
+</code></pre>
+<p>Our local API now has a way to call out to remote APIs using the user's access token. We will now update our client-side JavaScript to invoke the local API.</p>
+<ul>
+<li>Open <code>~/wwwroot/js/site.js</code>.</li>
+<li>Find the <code>getMovieData</code> function.
+This is invoked when the user clicks the &quot;Movies&quot; link at the top of the page.</li>
+<li>Use <code>fetch</code> to make a GET request to the '/api/movies' endpoint.
+<ul>
+<li>Pass a &quot;?page=&quot; query param based on the <code>page</code> parameter passed into this function.</li>
+<li>Is the response is successful, then parse the JSON response body and call <code>bindMovieData(data)</code> passing the results as a parameter.</li>
+<li>If the response is not successful, then log an error.</li>
+</ul>
+</li>
+</ul>
+<pre><code>async function getMovieData(page) {
+    const req = new Request('/api/movies?page=' + page);
+
+    try {
+        const resp = await fetch(req);
+        if (resp.ok) {
+            const data = await resp.json();
+            bindMovieData(data);
+        }
+        else if (resp.status === 401) {
+            console.log(&quot;Error Calling API&quot;);
+        }
+    }
+    catch (e) {
+        console.log(&quot;error checking user status&quot;);
+    }
+}
+</code></pre>
+<p>Now when the movies page is accessed, the local API is invoked. Test this by:</p>
+<ul>
+<li>Running the movie review web API project.</li>
+<li>Running the movie web app and try to access movies again.</li>
+</ul>
+<p>You should see the movies listed in the UI.</p>
+<p>Since the local API is just a custom endpoint in the application, it is vulnerbale to a XSRF attack.
+To protect it against such an attack, we need to add an anti-XSRF token to the call and perform validation server-side for the token.
+The Duende.BFF library provides support for this.</p>
+<ul>
+<li>Open <code>~/Startup.cs</code> and locate the <code>Configure</code> method.</li>
+<li>Inside of <code>UseEndpoints</code> notice where the local API is registered with <code>MapControllers()</code>.</li>
+<li>Add a call to <code>.AsBffApiEndpoint()</code> to the end of the fluent API call chain.</li>
+</ul>
+<pre><code>// local APIs
+endpoints.MapControllers()
+    .RequireAuthorization()
+    .AsBffApiEndpoint();
+</code></pre>
+<p>This now enforces that an anti-XSRF token is used for these endpoints.
+We now need to pass the anti-XSRF token when calling the local API from the client-side JavaScript.</p>
+<ul>
+<li>Open <code>~/wwwroot/js/site.js</code>.</li>
+<li>Find the <code>getMovieData</code> function.</li>
+<li>Pass a <code>X-CSRF</code> request header to the constant 1 as the anti-XSRF token.</li>
+</ul>
+<pre><code>async function getMovieData(page) {
+    const req = new Request('/api/movies?page=' + page, {
+        headers: new Headers({
+            'X-CSRF': '1'
+        })
+    });
+
+    try {
+        const resp = await fetch(req);
+        if (resp.ok) {
+            const data = await resp.json();
+            bindMovieData(data);
+        }
+        else if (resp.status === 401) {
+            console.log(&quot;Error Calling API&quot;);
+        }
+    }
+    catch (e) {
+        console.log(&quot;error checking user status&quot;);
+    }
+}
+</code></pre>
+<p>You can now test to ensure the application still works.
+You can also inspect the network traffic to view the header.
+Also, you can test the local API by not passing the token to see that the value is required.</p>
+<h2>Part 3: Use the BFF proxy to invoke a remote API</h2>
+<p>We now have a way to secure calls to a local API, and that local API has a way to use the user's access token to invoke remote APIs.
+This pattern works if the local API is adding logic or other useful processing to the remote API.
+But in some scenarios that is not needed and thus we just need the BFF layer to be a pass-thru to the remote API.
+Coding a local API endpoint for every remote API endpoint is tedious, so we will now remove the manually coded local pass-thru API and instead use the BFF proxy feature to automatically allow the front-end JavaScript to be able to invoke the remote APIs.</p>
+<p>First we will remove the code for the local API.</p>
+<ul>
+<li>Open <code>~/Startup.cs</code> and locate the <code>Configure</code> method.</li>
+<li>Inside of <code>UseEndpoints</code> notice where the local API is registered with <code>MapControllers()</code>.</li>
+<li>Remove (or comment out) the entire call to <code>MapControllers()</code>.</li>
+</ul>
+<pre><code>// local APIs
+//endpoints.MapControllers()
+//    .RequireAuthorization()
+//    .AsBffApiEndpoint();
+</code></pre>
+<p>Next we will enable the BFF proxy to the remote API:</p>
+<ul>
+<li>Inside of <code>UseEndpoints</code> add a call to <code>MapRemoteBffApiEndpoint()</code>.
+<ul>
+<li>Use &quot;/api&quot; and the path prefix.</li>
+<li>Use &quot;https://localhost:5009&quot; as the remote API address.</li>
+</ul>
+</li>
+<li>At the end of the call to <code>MapRemoteBffApiEndpoint()</code>, add a call to <code>.RequireAccessToken(TokenType.User)</code> to indicate that the user's access token should automatically be passed to the remote API (much like we did manually in the prior section).</li>
+</ul>
+<pre><code>endpoints.MapRemoteBffApiEndpoint(&quot;/api&quot;, &quot;https://localhost:5009&quot;)
+   .RequireAccessToken(TokenType.User);
+</code></pre>
+<p>Finally, we need to add the services to DI that use YARP to enable remote API calls.
+In <code>Configure</code> in <code>Startup.cs</code>, use the fluent API <code>AddRemoteApis</code> after the call to <code>AddBff</code>.</p>
+<pre><code>public void ConfigureServices(IServiceCollection services)
+{
+    services.AddBff()
+        .AddRemoteApis();
+
+    // ...
+}
+</code></pre>
+<p>That's all that's needed.
+The client-side JavaScript will not need to change, and we no longer need a manually coded local API code.</p>
+<p>Run and test to validate the movie data API is still working.</p>
+<hr />
+<p>Copyright © 2020 <a href="https://duendesoftware.com/">Duende Software</a>. All rights reserved.</p>
+
+
+</body></html>
